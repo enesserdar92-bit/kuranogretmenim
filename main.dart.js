@@ -386,7 +386,7 @@ break
 default:s=null}s=A.a3(s,t.N)
 return s},
 c3s(){var s=A.JL().b,r=s==null?null:s.canvasKitVariant
-s=A.c66(A.bYa(B.a_5,r==null?"auto":r))
+s=A.c66(A.bYa(B.a_6,r==null?"auto":r))
 return new A.a8(s,new A.bb9(),A.a5(s).h("a8<1,E>"))},
 c5l(a,b){return b+a},
 ayh(){var s=0,r=A.y(t.m),q,p,o,n
@@ -886,7 +886,7 @@ a.l()
 return n},
 ON(a){return new A.a5a(a)},
 c5M(a){var s,r,q,p,o,n,m
-A:for(s=a.length,r=0;r<6;++r){q=B.Ym[r]
+A:for(s=a.length,r=0;r<6;++r){q=B.Yl[r]
 p=q.c
 o=p.length
 if(s<o)continue A
@@ -1576,11 +1576,11 @@ bg_(a){var s=!1
 if($.by().gdd()===B.bs||$.by().gdd()===B.cT)if(a!=null)s=a===".SF Pro Text"||a===".SF Pro Display"||a===".SF UI Text"||a===".SF UI Display"
 return s},
 bQY(){if(A.bSm())return B.vl
-if($.by().gdd()===B.bs||$.by().gdd()===B.cT)return B.YY
+if($.by().gdd()===B.bs||$.by().gdd()===B.cT)return B.Z_
 throw A.n(A.aM("Should only be called on Mac or iOS."))},
 c4F(){if(A.bSm())return B.vl
 if($.by().gdd()===B.bs||$.by().gdd()===B.cT)return A.bQY()
-return B.YU},
+return B.YV},
 bRW(a,b){var s,r,q,p,o=new A.dd("")
 A.bRy(a,o)
 if(!A.bg0(a)&&!A.bg_(a)){s=b==null
@@ -12200,8 +12200,8 @@ break
 case 4:s=l.a
 s===$&&A.e()
 s=A.bV(s,200)
-r=A.bV(A.aCM(l,B.vn,B.Z0),24)
-q=A.bV(A.aCM(l,B.vn,B.a_n),32)
+r=A.bV(A.aCM(l,B.vn,B.Z1),24)
+q=A.bV(A.aCM(l,B.vn,B.a_q),32)
 p=A.bV(l.a,10)
 o=A.bV(l.a,12)
 l.d===$&&A.e()
@@ -24085,7 +24085,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 bY_(a,b){var s=A.a5(b).h("a8<1,Kl>")
 s=A.a3(new A.a8(b,new A.aDG(),s),s.h("aH.E"))
-return A.bXg(!0,s,a,B.a_I,!0,B.RI,null)},
+return A.bXg(!0,s,a,B.a_L,!0,B.RI,null)},
 bdP(a){var s
 try{a.ee()}catch(s){a.T8()}a.w=B.akq
 try{a.bw(A.c62())}catch(s){}},
@@ -24781,7 +24781,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 a5i(a,b){var s
-if(a.j(0,b))return new A.ags(B.a_A)
+if(a.j(0,b))return new A.ags(B.a_D)
 s=A.f([],t.fJ)
 A.cg()
 a.lq(new A.aGR(b,A.aN(t.C),s))
@@ -25201,7 +25201,7 @@ t.Dn.a(a)
 s=J.bN(a)
 r=s.i(a,0)
 r.toString
-switch(B.Yv[A.Ks(r)].a){case 0:s=s.hS(a,1)
+switch(B.Yu[A.Ks(r)].a){case 0:s=s.hS(a,1)
 r=s[0]
 r.toString
 A.Ks(r)
@@ -36494,7 +36494,7 @@ aGe(a){var s=a/100
 return(s<=0.0031308?s*12.92:1.055*Math.pow(s,0.4166666666666667)-0.055)*255},
 be7(a){var s=Math.pow(Math.abs(a),0.42)
 return A.Ws(a)*400*s/(s+27.13)},
-be8(a){var s=A.bes(a,B.a0m),r=A.be7(s[0]),q=A.be7(s[1]),p=A.be7(s[2])
+be8(a){var s=A.bes(a,B.a0l),r=A.be7(s[0]),q=A.be7(s[1]),p=A.be7(s[2])
 return Math.atan2((r+q-2*p)/9,(11*r+-12*q+p)/11)},
 bYJ(a,b){var s,r,q,p,o,n=B.y.bH(b,4)<=1?0:100,m=(b&1)===0?0:100
 if(b<4){s=(a-n*0.7152-m*0.0722)/0.2126
@@ -36571,7 +36571,7 @@ if(p!==0)return p
 return A.bif(A.bYG(q,r))},
 big(a,b,c){return((a&255)<<16|(b&255)<<8|c&255|4278190080)>>>0},
 bif(a){return A.big(A.aBn(a[0]),A.aBn(a[1]),A.aBn(a[2]))},
-a3L(a){return A.bes(A.f([A.a3K(B.y.eM(a,16)&255),A.a3K(B.y.eM(a,8)&255),A.a3K(a&255)],t.n),B.Yx)},
+a3L(a){return A.bes(A.f([A.a3K(B.y.eM(a,16)&255),A.a3K(B.y.eM(a,8)&255),A.a3K(a&255)],t.n),B.Yw)},
 Vm(a){return 100*A.bWR((a+16)/116)},
 bih(a){return A.Vl(a/100)*116-16},
 a3K(a){var s=a/255
@@ -36881,7 +36881,7 @@ $1(a){this.a.b=A.bSB(a.getOutputBounds(A.cZ(this.b)))},
 $S:4}
 A.Zc.prototype={
 gamC(){var s,r,q=new Float32Array(20)
-for(s=this.a,r=0;r<20;++r)if(B.d.q(B.Yj,r))q[r]=s[r]/255
+for(s=this.a,r=0;r<20;++r)if(B.d.q(B.Yi,r))q[r]=s[r]/255
 else q[r]=s[r]
 return q},
 vA(){return $.b9.be().ColorFilter.MakeMatrix(this.gamC())},
@@ -37683,7 +37683,7 @@ yF(){var s=this.as
 s===$&&A.e()
 return s},
 yG(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.a_F
+if(a<0||b<0)return B.a_I
 s=this.a
 s===$&&A.e()
 s=s.a
@@ -37951,7 +37951,7 @@ j(a,b){if(b==null)return!1
 if(!(b instanceof A.a4A))return!1
 return b.d===this.d&&b.b==this.b&&A.Mu(b.c,this.c)},
 gB(a){var s=this,r=s.c
-return A.V(s.d,s.a,s.b,A.bv(r==null?B.a_B:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.V(s.d,s.a,s.b,A.bv(r==null?B.a_E:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 $iNt:1}
 A.a3q.prototype={
 Zr(a,b){var s=this.Sx(a),r=A.bh(new A.aAE(this,b,s))
@@ -38490,7 +38490,7 @@ p.toString
 p=p>0}else p=!1
 if(p)return q}o=this.ag4(a,b)
 if(o.length===1)return B.d.ga8(o)
-for(r=0;r<7;++r){q=A.biW(o,new A.aEF(B.Zf[r]))
+for(r=0;r<7;++r){q=A.biW(o,new A.aEF(B.Zg[r]))
 if(q!=null)return q}return B.d.ga8(o)},
 agZ(a){var s,r,q
 if(B.kG.ar(a)){s=B.kG.i(0,a)
@@ -40133,7 +40133,7 @@ if(e.b){q=t.f
 d=q.a(q.a(B.df.h4(a2)).i(0,"data"))
 c=A.cF(d.i(0,"message"))
 if(c!=null&&c.length!==0){b=A.bek(d,"assertiveness")
-e.a.ZH(c,B.YV[b==null?0:b])}}a.fm(a3,B.df.c5(!0))
+e.a.ZH(c,B.YW[b==null?0:b])}}a.fm(a3,B.df.c5(!0))
 return
 case"flutter/navigation":q=a.gd5().b
 p=t.e8
@@ -43155,7 +43155,7 @@ if(m.f!==B.uz){m.f=B.uz
 m.Vm()}}return m.d.a.a6a(a)},
 Vm(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-a69(a){if(B.d.q(B.a_t,a))return this.f===B.kg
+a69(a){if(B.d.q(B.a_w,a))return this.f===B.kg
 return!1}}
 A.aEh.prototype={
 $0(){return new A.OD(Date.now(),0,!1)},
@@ -44736,7 +44736,7 @@ o=A.Ks(s.i(0,"textAlignIndex"))
 n=A.Ks(s.i(0,"textDirectionIndex"))
 m=A.LV(s.i(0,"fontWeightIndex"))
 l=m!=null?A.bSc(m):"normal"
-p=new A.aSI(new A.aDC(A.aH6(s,"fontSize"),l,A.cF(s.i(0,"fontFamily")),B.YN[o],B.ok[n],A.aH6(s,"letterSpacing"),A.aH6(s,"wordSpacing"),A.aH6(s,"lineHeight")))
+p=new A.aSI(new A.aDC(A.aH6(s,"fontSize"),l,A.cF(s.i(0,"fontFamily")),B.YO[o],B.ok[n],A.aH6(s,"letterSpacing"),A.aH6(s,"wordSpacing"),A.aH6(s,"lineHeight")))
 break
 case"TextInput.clearClient":p=B.Lt
 break
@@ -50329,7 +50329,7 @@ if(o>0)return s
 return null}}
 A.aVD.prototype={
 E(a,b){this.Su(b,0,b.length,!1)},
-bj(){this.Su(B.a_y,0,0,!0)}}
+bj(){this.Su(B.a_B,0,0,!0)}}
 A.baw.prototype={
 Su(a,b,c,d){var s=this.b.axn(a,b,c,d)
 if(s!=null)this.a.pg(s,0,s.length,d)}}
@@ -54234,7 +54234,7 @@ h=r[4]
 g=r[5]
 f=r[6]
 e=r[7]
-for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Zk[q]+s[q]>>>0)>>>0)>>>0
+for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Zl[q]+s[q]>>>0)>>>0)>>>0
 b=i+c>>>0
 a=c+((((d>>>2|d<<30)^(d>>>13|d<<19)^(d>>>22|d<<10))>>>0)+((d&k^d&j^k&j)>>>0)>>>0)>>>0}r.$flags&2&&A.ax(r)
 r[0]=d+l>>>0
@@ -55265,7 +55265,7 @@ r=A.a_E(B.a3X,B.x,r==null?1:r)
 r.toString
 q=p.ab(q.gn())
 if(q==null)q=1
-return A.anb(A.bOE(null,B.v,new A.a_q(q,B.ZO,new A.bx(B.JN,this.e)),s,1,B.a8U),r)}}
+return A.anb(A.bOE(null,B.v,new A.a_q(q,B.ZN,new A.bx(B.JN,this.e)),s,1,B.a8U),r)}}
 A.aex.prototype={
 l(){var s=this,r=s.aS$
 if(r!=null)r.J(s.gdY())
@@ -59468,7 +59468,7 @@ A.a15.prototype={
 H(){return"_CornerId."+this.b}}
 A.Sl.prototype={}
 A.a_r.prototype={
-lE(){var s,r,q,p=this,o=A.c4w(B.a_h,new A.aKf(p,p.b.gbb().a0(0,p.a.gbb()))),n=p.a
+lE(){var s,r,q,p=this,o=A.c4w(B.a_k,new A.aKf(p,p.b.gbb().a0(0,p.a.gbb()))),n=p.a
 n.toString
 s=o.a
 r=p.rl(n,s)
@@ -63923,7 +63923,7 @@ return s.b}}
 A.Pn.prototype={
 H(){return"_ListTileSlot."+this.b}}
 A.arG.prototype={
-gPS(){return B.a_7},
+gPS(){return B.a_8},
 a_i(a){var s,r=this
 switch(a.a){case 0:s=r.d
 break
@@ -64241,7 +64241,7 @@ r.f=s.d},
 $S:2}
 A.ajz.prototype={
 D(a){var s=this.c.Z(0,new A.l(0,40.95))
-return A.bOE(A.a3N(null,B.Qw,!0),B.O,new A.a_q(1,B.a_W,new A.bx(B.JK,B.L)),s,1.25,B.a8V)}}
+return A.bOE(A.a3N(null,B.Qw,!0),B.O,new A.a_q(1,B.a_X,new A.bx(B.JK,B.L)),s,1.25,B.a8V)}}
 A.Wr.prototype={
 H(){return"MaterialType."+this.b}}
 A.a5Y.prototype={
@@ -65221,7 +65221,7 @@ $R:3,
 $S:168}
 A.aki.prototype={
 ac2(a){var s=t.Tr
-s=A.a3(new A.a8(B.a_e,new A.aLL(a),s),s.h("aH.E"))
+s=A.a3(new A.a8(B.a_h,new A.aLL(a),s),s.h("aH.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -68781,7 +68781,7 @@ gcB(){return new A.bM(new A.b8x(this),t.mN)},
 gBx(){return 14},
 gDq(){return 14},
 gEf(){return 14},
-gEA(){return B.a0w},
+gEA(){return B.a0x},
 guc(){return 31},
 gue(){return 51},
 gEH(){return B.a8N},
@@ -68879,7 +68879,7 @@ gEf(){return 14},
 gab9(){return 48},
 gaba(){return 40},
 gQL(){return 52},
-gEA(){return B.a_J},
+gEA(){return B.a_M},
 guc(){return 32},
 gue(){return 52},
 gEH(){return B.a8P},
@@ -72495,7 +72495,7 @@ return new A.Ta(r.a.d0(s.giW()),r.b,r.c)},
 de(a){var s=this.b
 return s.a.c.de(a.a0(0,s.giW()))},
 ta(){var s,r,q=this.b,p=q.giW()
-if(!isFinite(p.a)||!isFinite(p.b))return B.a_H
+if(!isFinite(p.a)||!isFinite(p.b))return B.a_K
 s=q.f
 if(s==null){s=q.a.c.ta()
 q.f=s}if(p.j(0,B.x))r=s
@@ -72690,7 +72690,7 @@ p=e==null?h.gp8():e
 o=h.r
 o=o==null?g:o*a2+a1
 n=h.w
-n=n==null?g:B.a0H[B.y.cS(n.gq_(),0,8)]
+n=n==null?g:B.a0G[B.y.cS(n.gq_(),0,8)]
 m=h.y
 m=m==null?g:m*a6+a5
 l=h.z
@@ -82572,7 +82572,7 @@ break
 case 1:return A.w(q,r)}})
 return A.x($async$I1,r)},
 agq(a,b){var s,r,q,p
-if(a===b)return B.a_E
+if(a===b)return B.a_H
 s=A.f([],t.QP)
 if(a==null)s.push(b)
 else{r=B.d.hC(B.i8,a)
@@ -84680,7 +84680,7 @@ A.RQ.prototype={}
 A.akF.prototype={
 mn(a,b){var s,r,q,p,o,n=$.a9.L$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.d,r=0;r<2;++r){q=B.a_u[r]
+for(s=t.d,r=0;r<2;++r){q=B.a_x[r]
 p=n.e
 p.toString
 o=A.bdb(p,q,s)
@@ -87247,7 +87247,7 @@ q.bk()
 q.bZ$.E(0,s.gamG())
 s.e=q}return q},
 gUS(){var s=this.f
-return s===$?this.f=new A.aYo(1,B.YM,B.cC):s},
+return s===$?this.f=new A.aYo(1,B.YN,B.cC):s},
 gh_(){var s=this.z
 s=s==null?null:$.cz().d===s
 return s===!0},
@@ -87962,7 +87962,7 @@ h.K7()
 r=h.gahk()
 q=q.xg
 h.e!==$&&A.b1()
-h.e=new A.am2(f,new A.c5(B.a2d,l),new A.Wm(),p,B.dD,0,k,h.gajJ(),h.gajL(),r,B.dD,0,j,h.gajD(),h.gajF(),r,i,B.a_C,s,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.ah3(),new A.ah3())
+h.e=new A.am2(f,new A.c5(B.a2d,l),new A.Wm(),p,B.dD,0,k,h.gajJ(),h.gajL(),r,B.dD,0,j,h.gajD(),h.gajF(),r,i,B.a_F,s,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.ah3(),new A.ah3())
 return h},
 zR(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -91325,7 +91325,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.a_(b)!==A.A(s))return!1
 return b instanceof A.aJ&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cG(null,null)},
-gB(a){return A.V(this.a,this.b,null,this.d,A.bv(B.a_D),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gB(a){return A.V(this.a,this.b,null,this.d,A.bv(B.a_G),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.l.jC(B.y.mA(this.a,16).toUpperCase(),5,"0")+")"}}
 A.W7.prototype={
 c8(a){return!this.w.j(0,a.w)},
@@ -92484,7 +92484,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 if(a3==null)a3=a2.b.c.Q
-a=new A.a62(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.ZC(a1),B.a_z,e===!0,d,c,b,a3,A.bZm(a2))
+a=new A.a62(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.ZC(a1),B.a_C,e===!0,d,c,b,a3,A.bZm(a2))
 if(!a.j(0,a0.e))a0.G(new A.b2D(a0,a))},
 Cu(){if(this.d==null)this.rW()},
 Lz(){this.rW()},
@@ -98995,7 +98995,7 @@ r.Bk()
 return s.b8()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gI4(),p=0;p<s.length;s.length===r||(0,A.L)(s),++p)s[p].J(q)
-o.b=B.a_G
+o.b=B.a_J
 o.y=!1
 o.dA()},
 eF(a,b){return a.nN(b)},
@@ -103181,7 +103181,7 @@ return null},
 $S:2}
 A.aVh.prototype={
 $2(a,b){var s=null,r=this.b,q=this.a
-return A.MV(new A.cb(new A.aa(0,1/0,b.d,1/0),A.bm(new A.ay(B.Ty,A.az(A.f([A.R("Hangi Seviyede\nOynamak \u0130stersin?",s,s,s,s,A.KB(r,B.ab,24,B.I),B.ae,s),B.fX,new A.add("1. SEV\u0130YE","Harfler","\ud83d\udd24",B.ZS,r,new A.aVe(q),s),B.fW,new A.add("2. SEV\u0130YE","Kelimeler","\ud83d\udcd6",B.Zr,r,new A.aVf(q),s)],t.p),B.z,B.A,B.ac),s),s,s),s),s,s,!1,B.aa)},
+return A.MV(new A.cb(new A.aa(0,1/0,b.d,1/0),A.bm(new A.ay(B.Ty,A.az(A.f([A.R("Hangi Seviyede\nOynamak \u0130stersin?",s,s,s,s,A.KB(r,B.ab,24,B.I),B.ae,s),B.fX,new A.add("1. SEV\u0130YE","Harfler","\ud83d\udd24",B.ZR,r,new A.aVe(q),s),B.fW,new A.add("2. SEV\u0130YE","Kelimeler","\ud83d\udcd6",B.Zt,r,new A.aVf(q),s)],t.p),B.z,B.A,B.ac),s),s,s),s),s,s,!1,B.aa)},
 $S:612}
 A.aVe.prototype={
 $0(){return this.a.PJ(B.c2)},
@@ -103833,7 +103833,7 @@ for(s=this.e,r=this.f,q=0;q<5;++q){s===$&&A.e()
 p=s[q]
 r===$&&A.e()
 o=r[q]
-k[q]=new A.cx(p,!1,new A.a8g(n,!0,new A.auQ(B.a_K[q],n),o,n),n)}B.d.O(l,k)
+k[q]=new A.cx(p,!1,new A.a8g(n,!0,new A.auQ(B.a_N[q],n),o,n),n)}B.d.O(l,k)
 return A.db(m,B.hK,A.MV(A.bm(A.az(l,B.z,B.av,B.B),n,n),n,n,!1,B.aa),n,n,n,!1,n,n)}}
 A.b6X.prototype={
 $1(a){var s=this.b,r=a*300/s,q=t.t,p=this.a.d
@@ -103860,12 +103860,12 @@ a4(){return new A.aa_(A.Kx(),null,null)}}
 A.aa_.prototype={
 aqG(a){var s
 switch(a.a){case 0:return A.KC(B.YE,!0,t.Oe)
-case 1:s=A.KC(B.a05,!0,t.Oe)
+case 1:s=A.KC(B.a04,!0,t.Oe)
 B.d.lz(s)
 return A.M3(s,0,A.Pu(12,"count",t.S),A.a5(s).c).dS(0)
 case 2:return A.KC(B.ZW,!0,t.Oe)
-case 3:return A.KC(B.a_U,!0,t.Oe)
-case 4:return A.KC(B.a0F,!0,t.Oe)}},
+case 3:return A.KC(B.a_V,!0,t.Oe)
+case 4:return A.KC(B.a0E,!0,t.Oe)}},
 ah(){var s,r=this,q=null
 r.ap()
 s=r.aqG(r.a.c)
@@ -104300,7 +104300,7 @@ i.delete()}},
 dn(a){return!1}}
 A.anU.prototype={
 D(a){var s,r,q,p,o=this,n=null,m=o.e,l=m?B.r9:B.r,k=A.f([new A.aE(0,B.M,m?B.a9:B.d0,B.AX,20)],t.V)
-m=A.a3(new A.a8(B.a_a,new A.aUs(o),t.zu),t.l7)
+m=A.a3(new A.a8(B.a_c,new A.aUs(o),t.zu),t.l7)
 m.push(B.cy)
 s=o.c
 m.push(new A.aoi("\ud83e\uddf9",s.j(0,B.r),new A.aUt(o),"Silgi",n))
@@ -105235,7 +105235,7 @@ r===$&&A.e()
 r=A.bii(B.m9,B.ZX,r,!1)
 q=A.a2(20)
 p=t.p
-q=A.af(i,A.aT(A.f([j.Js("Seviye",B.y.k(j.y),B.dt),B.FZ,j.Js("Puan",B.y.k(j.x),B.cg),B.FZ,j.Js("Rozet",j.aE7(),B.ax)],p),B.z,B.A,B.ac,0),B.v,i,i,new A.a6(B.r,i,i,q,B.a0a,i,B.E),i,i,i,B.TE,i,i,i)
+q=A.af(i,A.aT(A.f([j.Js("Seviye",B.y.k(j.y),B.dt),B.FZ,j.Js("Puan",B.y.k(j.x),B.cg),B.FZ,j.Js("Rozet",j.aE7(),B.ax)],p),B.z,B.A,B.ac,0),B.v,i,i,new A.a6(B.r,i,i,q,B.a09,i,B.E),i,i,i,B.TE,i,i,i)
 o=A.Nq(i,i,B.VO,i,i,j.gaAD(),i,i,i)
 n=A.R("Dinle ve Eksik Harfi Bul",i,i,i,i,A.Nb().$1$fontSize(16),i,i)
 m=A.bdN(new A.b1n(j),new A.b1o(j),t.N)
@@ -105403,8 +105403,8 @@ a4(){var s=A.Kx()
 return new A.ab_(s,B.aT,B.uy,B.x,A.f([],t.xa),null,null)}}
 A.ab_.prototype={
 gvW(){var s=this.a.c
-if(s==="Kolay")s=B.a_s
-else s=s==="Orta"?B.a_j:B.XQ
+if(s==="Kolay")s=B.a_v
+else s=s==="Orta"?B.a_n:B.XO
 return s},
 ah(){var s,r,q,p,o,n=this,m=null
 n.ap()
@@ -105819,7 +105819,7 @@ return A.XO(-0.5+s.b.ab(s.a.gn())*0.8,b)},
 $S:54}
 A.ar_.prototype={
 D(a){var s=null,r=A.a2(16)
-return A.af(s,A.bm(A.af(s,s,B.v,s,s,new A.a6(B.J.W(0.6),s,s,s,s,s,B.aN),s,s,B.fl,s,s,s,s),s,s),B.v,s,s,new A.a6(B.t_,s,s,r,B.Yh,s,B.E),s,s,s,s,s,s,s)}}
+return A.af(s,A.bm(A.af(s,s,B.v,s,s,new A.a6(B.J.W(0.6),s,s,s,s,s,B.aN),s,s,B.fl,s,s,s,s),s,s),B.v,s,s,new A.a6(B.t_,s,s,r,B.Yg,s,B.E),s,s,s,s,s,s,s)}}
 A.as2.prototype={
 D(a){var s,r,q,p,o,n,m,l,k,j=null,i=this.c,h=i.a,g=h===B.G1,f=h===B.G2,e=i.c
 if(g)s=B.PF
@@ -107269,7 +107269,7 @@ p=A.JO(q,q,q,!0,!0,B.aW,q,1,q,q,q,!1,q,!1,B.r,q,q,q,!0,q,q,q,q,q,A.R(p.b,q,q,q,q
 s=A.LP(!0,A.bm(new A.cb(B.qx,this.anu(o),q),q,q),!0,!1,B.aq,!0,!0)
 r=this.e
 r===$&&A.e()
-return A.db(p,B.fd,A.cq(B.aJ,A.f([s,new A.JD(B.dd,q,q,A.bii(B.m9,B.YX,r,!1),q)],t.p),B.O,B.ak,q),q,q,q,!1,q,q)},
+return A.db(p,B.fd,A.cq(B.aJ,A.f([s,new A.JD(B.dd,q,q,A.bii(B.m9,B.YY,r,!1),q)],t.p),B.O,B.ak,q),q,q,q,!1,q,q)},
 anu(a){var s=this,r=null,q=A.a2(10),p=s.f,o=t.p
 p=A.az(A.f([A.Vk(q,A.ajo(B.hw,B.aW,10,(p+(s.y?1:0))/a,r)),B.bO,A.R("Ayet "+(p+1)+" / "+a,r,r,r,r,A.bc(r,r,B.r8,r,r,r,r,r,r,r,r,r,r,r,B.I,r,r,!0,r,r,r,r,r,r,r,r),r,r)],o),B.z,B.A,B.B)
 return A.az(A.f([new A.ay(B.bZ,p,r),A.bI(A.bm(s.Q?B.r2:A.c2(r,A.af(r,B.R2,B.v,r,r,new A.a6(r,r,r,r,A.f([new A.aE(0,B.M,B.aW.W(0.4),B.dV,20)],t.V),B.Xx,B.aN),r,130,r,r,r,r,130),B.V,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s.garK(),r,r,r,r,r,r),r,r),2),new A.ay(B.k_,A.R("Duydu\u011fun ayet hangisi? \ud83d\udc47",r,r,r,r,A.Nb().$3$color$fontSize$fontWeight(B.a9,15,B.I),r,r),r),B.ck,A.bI(new A.ay(B.k_,A.ajr(r,new A.b6K(s),s.x.length,r),r),3)],o),B.z,B.A,B.B)}}
@@ -107351,7 +107351,7 @@ r=l?B.cg:B.oL}else if(j&&l){s=B.jI
 r=B.cg}else{s=B.r
 r=B.hw}j=A.a2(16)
 q=A.bl(r,2)
-return new A.ay(B.nl,A.c2(p,A.af(p,A.R(m,p,p,p,p,A.bgw().$3$color$fontSize$fontWeight(B.mr,20,B.I),B.ae,p),B.v,p,p,new A.a6(s,p,q,j,B.Ze,p,B.E),p,p,p,B.u_,p,p,1/0),B.V,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.b6J(o,n),p,p,p,p,p,p),p)},
+return new A.ay(B.nl,A.c2(p,A.af(p,A.R(m,p,p,p,p,A.bgw().$3$color$fontSize$fontWeight(B.mr,20,B.I),B.ae,p),B.v,p,p,new A.a6(s,p,q,j,B.Zf,p,B.E),p,p,p,B.u_,p,p,1/0),B.V,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.b6J(o,n),p,p,p,p,p,p),p)},
 $S:240}
 A.b6J.prototype={
 $0(){return this.a.adr(this.b)},
@@ -107476,7 +107476,7 @@ s=A.a2(18)
 r=m?54:66
 q=A.a2(18)
 p=A.bl(B.mu,2.5)
-return A.Qj(B.T,A.Nr(!1,s,!0,A.af(B.T,A.R(n,o,o,o,o,A.bc(o,o,B.ms,o,o,o,o,o,o,o,o,m?22:16,o,o,B.I,o,o,!0,o,o,o,o,o,o,o,o),o,o),B.v,o,new A.aa(r,1/0,54,1/0),new A.a6(o,o,p,q,B.a09,B.Xw,B.E),o,o,o,B.jZ,o,o,o),o,!0,o,o,o,o,o,o,o,o,this.garI(),o,o,o,o),o,l)}}
+return A.Qj(B.T,A.Nr(!1,s,!0,A.af(B.T,A.R(n,o,o,o,o,A.bc(o,o,B.ms,o,o,o,o,o,o,o,o,m?22:16,o,o,B.I,o,o,!0,o,o,o,o,o,o,o,o),o,o),B.v,o,new A.aa(r,1/0,54,1/0),new A.a6(o,o,p,q,B.a08,B.Xw,B.E),o,o,o,B.jZ,o,o,o),o,!0,o,o,o,o,o,o,o,o,this.garI(),o,o,o,o),o,l)}}
 A.a8S.prototype={
 a4(){return new A.avJ(new A.bq(null,t.sW),A.f([],t.Fu),B.PZ)}}
 A.avJ.prototype={
@@ -107561,7 +107561,7 @@ j.push(A.af(p,A.aT(A.f([B.ahe,B.cy,A.R(""+q.y+" XP",p,p,p,p,B.afG,p,p)],k),B.z,B
 m=A.JO(j,p,p,!0,!0,B.r,p,1,!0,p,0.8,!1,p,!1,p,p,l,p,!0,p,p,p,p,p,m,p,p,p,1,p,!0)
 l=q.acT()
 j=A.f([],k)
-if(o)j.push(new A.a6l(B.r,B.YT,q.e,new A.b9p(q),B.a3D,p))
+if(o)j.push(new A.a6l(B.r,B.YU,q.e,new A.b9p(q),B.a3D,p))
 j.push(A.bI(A.bm(new A.cb(B.K5,new A.aj1(q.e,A.f([q.acK(o),q.acJ(),q.acD(),q.acx(o)],k),p),p),p,p),1))
 k=A.af(p,A.aT(j,B.z,B.A,B.B,0),B.v,p,p,B.K9,p,p,p,p,p,p,p)
 j=o?p:q.acy()
@@ -107628,7 +107628,7 @@ o.push(A.R(k.as,j,j,j,j,A.bc(j,j,k.at,j,j,j,j,j,j,j,j,13.5,j,j,B.I,j,j,!0,j,j,j,
 return A.MV(A.az(A.f([h,B.cz,s,B.bu,A.af(j,A.az(o,B.z,B.A,B.B),B.v,j,j,new A.a6(B.r,j,q,r,p,j,B.E),j,j,j,B.Tq,j,j,j)],g),B.cc,B.A,B.B),B.c_,j,!1,B.aa)},
 acx(a){var s=t.N,r=A.f([A.b(["icon","\ud83e\udea2","title","Lastik Ustas\u0131","desc","Med kurallar\u0131n\u0131 tamamla."],s,s),A.b(["icon","\ud83e\udd77","title","Gizli Ajan","desc","\u0130hfa kural\u0131n\u0131 yakala."],s,s),A.b(["icon","\ud83c\udfc0","title","S\u0131\xe7rama \u015eampiyonu","desc","Kalkale harflerini z\u0131plat."],s,s),A.b(["icon","\ud83e\udd81","title","Kraliyet Tac\u0131","desc","Aslan R\xe2 ve Lafzatullah'\u0131 \xe7\xf6z."],s,s)],t.m0)
 return A.Rn(new A.ND(a?4:2,16,16,1.05,null),new A.b8N(r),4,B.c_,null,!1)},
-acy(){return new A.ajS(this.e,B.a_g,new A.b8P(this),B.r,6,B.fb,null)}}
+acy(){return new A.ajS(this.e,B.a_j,new A.b8P(this),B.r,6,B.fb,null)}}
 A.b9r.prototype={
 $1(a){var s=this.a
 if(s.c!=null)s.G(new A.b9q(s,a))},
@@ -107812,7 +107812,7 @@ p=A.bl(B.NV,1.5)
 q=A.RE(A.af(r,A.R(n,r,r,r,r,B.adI,r,r),B.v,r,r,new A.a6(B.QQ,r,p,q,r,r,B.E),r,r,r,B.tZ,r,r,r),0.3)
 p=A.a2(18)
 s=A.bl(B.mu,2)
-return A.biI(A.af(r,A.R(n,r,r,r,r,B.acp,r,r),B.v,r,r,new A.a6(r,r,s,p,B.a0y,B.vd,B.E),r,r,r,B.u0,r,r,r),q,a,o,t.wq)},
+return A.biI(A.af(r,A.R(n,r,r,r,r,B.acp,r,r),B.v,r,r,new A.a6(r,r,s,p,B.a0z,B.vd,B.E),r,r,r,B.u0,r,r,r),q,a,o,t.wq)},
 $S:688}
 A.b8Y.prototype={
 $1(a){var s=null,r=A.a2(16),q=A.a2(16),p=A.bl(B.rq,2)
@@ -138997,8 +138997,8 @@ B.jd=new A.aa(1/0,1/0,1/0,1/0)
 B.ap=new A.a9b(0,"clamp")
 B.fb=new A.k(1,0.9333333333333333,0.9490196078431372,1,B.i)
 B.mN=new A.k(1,0.9803921568627451,0.9607843137254902,1,B.i)
-B.a0h=s([B.fb,B.mN],t.O)
-B.Xy=new A.cA(B.dd,B.dc,B.ap,B.a0h,null,null)
+B.a0g=s([B.fb,B.mN],t.O)
+B.Xy=new A.cA(B.dd,B.dc,B.ap,B.a0g,null,null)
 B.E=new A.agm(0,"rectangle")
 B.K9=new A.a6(null,null,null,null,null,B.Xy,B.E)
 B.Qo=new A.k(1,0.42745098039215684,0.2980392156862745,0.20784313725490197,B.i)
@@ -139009,8 +139009,8 @@ B.EP=new A.aK(36,36)
 B.JR=new A.ci(B.Q,B.Q,B.EP,B.EP)
 B.bL=new A.k(1,1,0.3215686274509804,0.3215686274509804,B.i)
 B.r6=new A.k(1,1,0.8392156862745098,0,B.i)
-B.Zd=s([B.bL,B.t6,B.r6],t.O)
-B.Xt=new A.cA(B.bg,B.c8,B.ap,B.Zd,null,null)
+B.Ze=s([B.bL,B.t6,B.r6],t.O)
+B.Xt=new A.cA(B.bg,B.c8,B.ap,B.Ze,null,null)
 B.Kb=new A.a6(null,null,null,B.JR,null,B.Xt,B.E)
 B.el=new A.k(1,1,0.4196078431372549,0.20784313725490197,B.i)
 B.aN=new A.agm(1,"circle")
@@ -139022,8 +139022,8 @@ B.r=new A.k(1,1,1,1,B.i)
 B.jt=new A.k(0.25882352941176473,0,0,0,B.i)
 B.iu=new A.l(0,2)
 B.Kg=new A.aE(0,B.M,B.jt,B.iu,4)
-B.a_c=s([B.Kg],t.V)
-B.Kf=new A.a6(B.r,null,null,null,B.a_c,null,B.aN)
+B.a_e=s([B.Kg],t.V)
+B.Kf=new A.a6(B.r,null,null,null,B.a_e,null,B.aN)
 B.PW=new A.k(1,1,0.8627450980392157,0.6980392156862745,B.i)
 B.md=new A.a6(B.PW,null,null,null,null,null,B.aN)
 B.qA=new A.agj(1,"contain")
@@ -139272,7 +139272,7 @@ B.aI=new A.aTG()
 B.ef=new A.anp()
 B.qY=new A.aTH()
 B.h2=new A.anv(0,0,0,0)
-B.a_z=s([],A.aA("J<aCn>"))
+B.a_C=s([],A.aA("J<aCn>"))
 B.alX=new A.aTN()
 B.ch={}
 B.Ax=new A.bB(B.ch,[],t.li)
@@ -140336,8 +140336,8 @@ B.Xk=new A.a5L(0,0,B.pz,null)
 B.vb=new A.a5M(0,"opportunity")
 B.og=new A.a5M(2,"mandatory")
 B.vc=new A.a5M(3,"endOfText")
-B.ZG=s([B.cG,B.ep],t.O)
-B.Xl=new A.cA(B.bA,B.c7,B.ap,B.ZG,null,null)
+B.ZF=s([B.cG,B.ep],t.O)
+B.Xl=new A.cA(B.bA,B.c7,B.ap,B.ZF,null,null)
 B.Oq=new A.k(1,0.9176470588235294,0.5019607843137255,0.9882352941176471,B.i)
 B.Oc=new A.k(1,0.8784313725490196,0.25098039215686274,0.984313725490196,B.i)
 B.R1=new A.k(1,0.8352941176470589,0,0.9764705882352941,B.i)
@@ -140345,33 +140345,33 @@ B.a2r=new A.bX([100,B.Oq,200,B.Oc,400,B.R1,700,B.f8],t.o)
 B.oI=new A.OX(B.a2r,1,0.8784313725490196,0.25098039215686274,0.984313725490196,B.i)
 B.vh=s([B.aW,B.oI],t.O)
 B.Xm=new A.cA(B.bg,B.c8,B.ap,B.vh,null,null)
-B.Z4=s([B.fb,B.mB],t.O)
-B.Xn=new A.cA(B.bg,B.c8,B.ap,B.Z4,null,null)
-B.a0g=s([B.jB,B.rm],t.O)
-B.Xo=new A.cA(B.bg,B.c8,B.ap,B.a0g,null,null)
+B.Z5=s([B.fb,B.mB],t.O)
+B.Xn=new A.cA(B.bg,B.c8,B.ap,B.Z5,null,null)
+B.a0f=s([B.jB,B.rm],t.O)
+B.Xo=new A.cA(B.bg,B.c8,B.ap,B.a0f,null,null)
 B.Oz=new A.k(1,0.8666666666666667,0.8392156862745098,0.996078431372549,B.i)
-B.a0v=s([B.rH,B.Oz],t.O)
-B.Xp=new A.cA(B.bg,B.c8,B.ap,B.a0v,null,null)
-B.Yz=s([B.ej,B.jx],t.O)
-B.Xq=new A.cA(B.bA,B.c7,B.ap,B.Yz,null,null)
+B.a0w=s([B.rH,B.Oz],t.O)
+B.Xp=new A.cA(B.bg,B.c8,B.ap,B.a0w,null,null)
+B.Yy=s([B.ej,B.jx],t.O)
+B.Xq=new A.cA(B.bA,B.c7,B.ap,B.Yy,null,null)
 B.Ov=new A.k(1,0.996078431372549,0.9529411764705882,0.7803921568627451,B.i)
 B.NZ=new A.k(1,0.9921568627450981,0.9019607843137255,0.5411764705882353,B.i)
 B.vz=s([B.Ov,B.NZ],t.O)
 B.Xr=new A.cA(B.bA,B.c7,B.ap,B.vz,null,null)
 B.PY=new A.k(1,1,0.9294117647058824,0.8352941176470589,B.i)
 B.Nx=new A.k(1,0.996078431372549,0.8431372549019608,0.6666666666666666,B.i)
-B.YA=s([B.PY,B.Nx],t.O)
-B.Xs=new A.cA(B.bA,B.c7,B.ap,B.YA,null,null)
+B.Yz=s([B.PY,B.Nx],t.O)
+B.Xs=new A.cA(B.bA,B.c7,B.ap,B.Yz,null,null)
 B.Xu=new A.cA(B.bg,B.c8,B.ap,B.vz,null,null)
-B.a08=s([B.bp,B.el],t.O)
-B.Xv=new A.cA(B.bg,B.c8,B.ap,B.a08,null,null)
+B.a07=s([B.bp,B.el],t.O)
+B.Xv=new A.cA(B.bg,B.c8,B.ap,B.a07,null,null)
 B.PV=new A.k(1,1,0.9529411764705882,0.6901960784313725,B.i)
 B.OX=new A.k(1,1,0.8196078431372549,0.4,B.i)
 B.vk=s([B.PV,B.OX],t.O)
 B.Xw=new A.cA(B.bg,B.c8,B.ap,B.vk,null,null)
 B.Xx=new A.cA(B.bA,B.c7,B.ap,B.vh,null,null)
-B.XO=s([B.r,B.mN],t.O)
-B.Xz=new A.cA(B.bg,B.c8,B.ap,B.XO,null,null)
+B.XM=s([B.r,B.mN],t.O)
+B.Xz=new A.cA(B.bg,B.c8,B.ap,B.XM,null,null)
 B.vd=new A.cA(B.bA,B.c7,B.ap,B.vk,null,null)
 B.XA=new A.aHJ(1,"drawer")
 B.XB=new A.a_h(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -140383,10 +140383,10 @@ B.XE=new A.Wl(4,"bottom")
 B.Kr=new A.aE(2,B.M,B.d0,B.x,8)
 B.XG=s([B.Kr],t.V)
 B.XH=s([0,1,2,3],t.Y)
-B.a_m=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
-B.ZN=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
+B.a_p=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.ZL=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.a0L=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.XK=s([B.a_m,B.ZN,B.a0L],t.zg)
+B.XK=s([B.a_p,B.ZL,B.a0L],t.zg)
 B.vg=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
 B.Jt=new A.aX("\u0627\u064e\u0644\u0644\u0651\u0670\u0647\u064f","sounds/kelimeler/allahu.mp3")
 B.Iy=new A.aX("\u0631\u064e\u062d\u0650\u064a\u0645\u064c","sounds/kelimeler/rahimun.mp3")
@@ -140409,37 +140409,37 @@ B.J1=new A.aX("\u0645\u064f\u0624\u0652\u0645\u0650\u0646\u064f\u0648\u0646\u064
 B.IQ=new A.aX("\u0642\u0650\u064a\u064e\u0627\u0645\u064e\u0629\u064c","sounds/kelimeler/k\u0131yametun.mp3")
 B.Jk=new A.aX("\u0645\u064f\u0633\u0652\u062a\u064e\u0642\u0650\u064a\u0645\u064e","sounds/kelimeler/m\xfcstakime.mp3")
 B.IR=new A.aX("\u0627\u0650\u0633\u0652\u062a\u064e\u063a\u0652\u0641\u064e\u0631\u064e","sounds/kelimeler/iste\u011ffera.mp3")
-B.XQ=s([B.Jt,B.Iy,B.In,B.Iu,B.IA,B.IP,B.II,B.IY,B.Jh,B.Js,B.IB,B.IX,B.Ju,B.IK,B.IV,B.IO,B.Is,B.J1,B.IQ,B.Jk,B.IR],t.Hy)
+B.XO=s([B.Jt,B.Iy,B.In,B.Iu,B.IA,B.IP,B.II,B.IY,B.Jh,B.Js,B.IB,B.IX,B.Ju,B.IK,B.IV,B.IO,B.Is,B.J1,B.IQ,B.Jk,B.IR],t.Hy)
 B.bG=new A.l(0,4)
 B.Ku=new A.aE(0,B.M,B.rJ,B.bG,8)
-B.Yh=s([B.Ku],t.V)
-B.Yj=s([4,9,14,19],t.Y)
-B.a0d=s([137,80,78,71,13,10,26,10],t.Z)
+B.Yg=s([B.Ku],t.V)
+B.Yi=s([4,9,14,19],t.Y)
+B.a0c=s([137,80,78,71,13,10,26,10],t.Z)
 B.Wy=new A.Te(0,"png")
 B.WG=new A.PS(B.Wy,!1,0,"png")
-B.Ww=new A.Rs(B.a0d,B.WG,0,"png")
-B.a0f=s([71,73,70,56,55,97],t.Z)
-B.Wv=new A.Rs(B.a0f,B.kk,1,"gif87a")
-B.a_b=s([71,73,70,56,57,97],t.Z)
-B.Wu=new A.Rs(B.a_b,B.kk,2,"gif89a")
-B.XR=s([255,216,255],t.Z)
+B.Ww=new A.Rs(B.a0c,B.WG,0,"png")
+B.a0e=s([71,73,70,56,55,97],t.Z)
+B.Wv=new A.Rs(B.a0e,B.kk,1,"gif87a")
+B.a_d=s([71,73,70,56,57,97],t.Z)
+B.Wu=new A.Rs(B.a_d,B.kk,2,"gif89a")
+B.XP=s([255,216,255],t.Z)
 B.Wz=new A.Te(2,"jpeg")
 B.WK=new A.PS(B.Wz,!1,3,"jpeg")
-B.Wx=new A.Rs(B.XR,B.WK,3,"jpeg")
-B.YL=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
-B.Wt=new A.Rs(B.YL,B.v2,4,"webp")
-B.YC=s([66,77],t.Z)
+B.Wx=new A.Rs(B.XP,B.WK,3,"jpeg")
+B.YM=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
+B.Wt=new A.Rs(B.YM,B.v2,4,"webp")
+B.YB=s([66,77],t.Z)
 B.WA=new A.Te(4,"bmp")
 B.WI=new A.PS(B.WA,!1,6,"bmp")
-B.Ws=new A.Rs(B.YC,B.WI,5,"bmp")
-B.Ym=s([B.Ww,B.Wv,B.Wu,B.Wx,B.Wt,B.Ws],A.aA("J<Rs>"))
+B.Ws=new A.Rs(B.YB,B.WI,5,"bmp")
+B.Yl=s([B.Ww,B.Wv,B.Wu,B.Wx,B.Wt,B.Ws],A.aA("J<Rs>"))
 B.q8=new A.acS(0,"named")
 B.Hx=new A.acS(1,"anonymous")
-B.Yv=s([B.q8,B.Hx],A.aA("J<acS>"))
-B.ZQ=s([0.41233895,0.35762064,0.18051042],t.n)
-B.Z2=s([0.2126,0.7152,0.0722],t.n)
-B.a0x=s([0.01932141,0.11916382,0.95034478],t.n)
-B.Yx=s([B.ZQ,B.Z2,B.a0x],t.zg)
+B.Yu=s([B.q8,B.Hx],A.aA("J<acS>"))
+B.ZP=s([0.41233895,0.35762064,0.18051042],t.n)
+B.Z3=s([0.2126,0.7152,0.0722],t.n)
+B.a0y=s([0.01932141,0.11916382,0.95034478],t.n)
+B.Yw=s([B.ZP,B.Z3,B.a0y],t.zg)
 B.vi=s([0,4,12,1,5,13,3,7,15],t.Y)
 B.MB=new A.bf("\u0627",B.er,"sounds/harfler/elif.mp3")
 B.LX=new A.bf("\u0628",B.en,"sounds/harfler/be.mp3")
@@ -140470,25 +140470,25 @@ B.akP=new A.N0(0.8875,0.25)
 B.akN=new A.N0(0.925,0.5)
 B.akH=new A.N0(0.9625,0.75)
 B.akI=new A.N0(1,1)
-B.YM=s([B.akG,B.akL,B.akO,B.akQ,B.akM,B.akK,B.akJ,B.akP,B.akN,B.akH,B.akI],A.aA("J<N0>"))
+B.YN=s([B.akG,B.akL,B.akO,B.akQ,B.akM,B.akK,B.akJ,B.akP,B.akN,B.akH,B.akI],A.aA("J<N0>"))
 B.dC=new A.S7(0,"left")
 B.eR=new A.S7(1,"right")
 B.iV=new A.S7(3,"justify")
 B.bf=new A.S7(4,"start")
 B.ln=new A.S7(5,"end")
-B.YN=s([B.dC,B.eR,B.ae,B.iV,B.bf,B.ln],A.aA("J<S7>"))
-B.Zp=s([2,1.13276676],t.n)
-B.XW=s([2.18349805,1.20311921],t.n)
-B.a_O=s([2.33888662,1.28698796],t.n)
-B.a_V=s([2.48660575,1.36351941],t.n)
-B.YW=s([2.62226596,1.44717976],t.n)
+B.YO=s([B.dC,B.eR,B.ae,B.iV,B.bf,B.ln],A.aA("J<S7>"))
+B.Zr=s([2,1.13276676],t.n)
+B.XU=s([2.18349805,1.20311921],t.n)
+B.a_R=s([2.33888662,1.28698796],t.n)
+B.a_W=s([2.48660575,1.36351941],t.n)
+B.YX=s([2.62226596,1.44717976],t.n)
 B.Zb=s([2.7514899,1.53385819],t.n)
-B.a_8=s([3.36298265,1.98288283],t.n)
+B.a_9=s([3.36298265,1.98288283],t.n)
 B.Zy=s([4.08649929,2.23811846],t.n)
 B.ZY=s([4.85481134,2.47563463],t.n)
-B.Z1=s([5.62945551,2.72948597],t.n)
-B.Zq=s([6.43023796,2.98020421],t.n)
-B.vj=s([B.Zp,B.XW,B.a_O,B.a_V,B.YW,B.Zb,B.a_8,B.Zy,B.ZY,B.Z1,B.Zq],t.zg)
+B.Z2=s([5.62945551,2.72948597],t.n)
+B.Zs=s([6.43023796,2.98020421],t.n)
+B.vj=s([B.Zr,B.XU,B.a_R,B.a_W,B.YX,B.Zb,B.a_9,B.Zy,B.ZY,B.Z2,B.Zs],t.zg)
 B.uQ=new A.aJ(63648,"MaterialIcons",!1)
 B.uY=new A.bE(B.uQ,null,null,null,null)
 B.VU=new A.bE(B.uQ,null,B.cs,null,null)
@@ -140507,191 +140507,22 @@ B.uZ=new A.bE(B.oc,null,null,null,null)
 B.VK=new A.bE(B.oc,null,B.cs,null,null)
 B.agV=new A.am("Rozetler",null,null,null,null,null,null,null,null)
 B.a3A=new A.WE(B.uZ,B.VK,B.agV)
-B.YT=s([B.a3B,B.a3C,B.a3z,B.a3A],A.aA("J<WE>"))
-B.YU=s(["Arial"],t.s)
-B.YV=s([B.m6,B.m7],A.aA("J<a33>"))
-B.YX=s([B.d6,B.du,B.is,B.bM],t.O)
-B.YY=s(["-apple-system","BlinkMacSystemFont"],t.s)
+B.YU=s([B.a3B,B.a3C,B.a3z,B.a3A],A.aA("J<WE>"))
+B.YV=s(["Arial"],t.s)
+B.YW=s([B.m6,B.m7],A.aA("J<a33>"))
+B.YY=s([B.d6,B.du,B.is,B.bM],t.O)
+B.Z_=s(["-apple-system","BlinkMacSystemFont"],t.s)
 B.vl=s(["BlinkMacSystemFont"],t.s)
-B.Z0=s([18,15,10,12,15,18,15,12,12],t.n)
-B.ZK=s(["\u0648","\u064a","\u0627"],t.s)
-B.a9M=new A.Kq("\u0642\u064e\u0627\u0644\u064e \u0631\u064e\u0628\u0650\u0651\u064a","K\xe2le Rabb\xee (Elif ile 1 Elif uzat\u0131l\u0131r)","Meryem Suresi","sounds/tecvidler/asli_med_1.mp3")
-B.a9V=new A.Kq("\u0642\u0650\u064a\u0644\u064e \u0644\u064e\u0647\u064f\u0645\u0652","K\xeele lehum (Ya ile 1 Elif uzat\u0131l\u0131r)","Bakara Suresi, 11","sounds/tecvidler/asli_med_2.mp3")
-B.a9W=new A.Kq("\u064a\u064e\u0642\u064f\u0648\u0644\u064f\u0648\u0646\u064e","Yek\xfbl\xfbne (Vav ile uzat\u0131l\u0131r)","Bakara Suresi, 8","sounds/tecvidler/asli_med_3.mp3")
-B.a0z=s([B.a9M,B.a9V,B.a9W],t.e)
-B.S_=new A.cn("1","\u0642\u064e\u0627\u0644\u064e",!0)
-B.RR=new A.cn("2","\u0645\u0650\u0646\u06e2 \u0628\u064e\u0639\u0652\u062f\u0650",!1)
-B.RY=new A.cn("3","\u0642\u0650\u064a\u0644\u064e",!0)
-B.S3=new A.cn("4","\u0623\u064e\u062d\u064e\u062f\u0652",!1)
-B.ZL=s([B.S_,B.RR,B.RY,B.S3],t.Fu)
-B.aah=new A.KX(B.dp,"Kelimeleri uygun kutulara s\xfcr\xfckleyip b\u0131rak!",null,null,null,0,B.ZL,"Harika! 'K\xe2le' ve 'K\xeele' Asl\xee Med kural\u0131na aittir.","sounds/tecvidler/asli_med_1.mp3")
-B.a5M=new A.Kb("\u0642\u064e",!1)
-B.a5U=new A.Kb("\u0627",!0)
-B.a5P=new A.Kb("\u0644\u064e",!1)
-B.YP=s([B.a5M,B.a5U,B.a5P],t.BQ)
-B.aa9=new A.KX(B.ev,"\u0642\u064e\u0627\u0644\u064e kelimesindeki sesi uzatan Med (Elif) harfine dokun!",null,B.YP,null,0,null,"Tebrikler! Hareketsiz Elif harfi 'Kaf' harfini 1 Elif uzatt\u0131.","sounds/tecvidler/asli_med_1.mp3")
-B.a0p=s([B.aah,B.aa9],t.g)
-B.aaz=new A.Lf("asli_med","Asl\xee Med (Lastik Harfler)","\ud83e\udea2","V-A-Y harfleri sessizce uzat\u0131r! Kendisinden \xf6nceki sesi 1 Elif uzatan elastik lastiklerdir.","Hareketsiz (\u0648 - \u064a - \u0627) harfleri bir \xf6nceki harfi 1 parmak kald\u0131racak kadar uzat\u0131r.",B.ZK,B.a0z,B.a0p)
-B.Zj=s(["\u062c\u064e\u0627\u0621\u064e","\u0627\u0644\u0633\u0651\u064e\u0645\u064e\u0627\u0621\u0650","\u0633\u064f\u0648\u0621\u064e"],t.s)
-B.a9X=new A.Kq("\u0625\u0650\u0630\u064e\u0627 \u062c\u064e\u0622\u0621\u064e \u0646\u064e\u0635\u0652\u0631\u064f \u0627\u0644\u0644\u0651\u0670\u0647\u0650","\u0130z\xe2 c\xe2\xe2\xe2e nasrull\xe2h (4 Elif uzat\u0131l\u0131r)","Nasr Suresi, 1","sounds/tecvidler/muttasil_1.mp3")
-B.a9L=new A.Kq("\u0648\u064e\u0627\u0644\u0633\u0651\u064e\u0645\u064e\u0622\u0621\u0650 \u0630\u064e\u0627\u062a\u0650 \u0627\u0644\u0652\u0628\u064f\u0631\u064f\u0648\u062c\u0650","Ves-sem\xe2\xe2\xe2i z\xe2til bur\xfbc","Bur\xfbc Suresi, 1","sounds/tecvidler/muttasil_2.mp3")
-B.a_Q=s([B.a9X,B.a9L],t.e)
-B.S4=new A.cn("1","\u062c\u064e\u0622\u0621\u064e",!0)
-B.RT=new A.cn("2","\u0627\u0644\u0633\u0651\u064e\u0645\u064e\u0622\u0621\u0650",!0)
-B.S0=new A.cn("3","\u064a\u064e\u0627 \u0623\u064e\u064a\u0651\u064f\u0647\u064e\u0627",!1)
-B.RX=new A.cn("4","\u0645\u0650\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652",!1)
-B.a_Z=s([B.S4,B.RT,B.S0,B.RX],t.Fu)
-B.aag=new A.KX(B.dp,"Medd-i Muttas\u0131l olan ve olmayan kelimeleri ay\u0131r!",null,null,null,0,B.a_Z,"S\xfcpersin! C\xe2e ve Sem\xe2 kelimeleri ayn\u0131 evde K\u0131r\u0131k Hemze bar\u0131nd\u0131r\u0131r.","sounds/tecvidler/muttasil_1.mp3")
-B.a0b=s([B.aag],t.g)
-B.aar=new A.Lf("med_muttasil","Medd-i Muttas\u0131l","\ud83c\udff0","Ayn\u0131 evdeki dev karde\u015fler! Med harfi ile K\u0131r\u0131k Hemze (\u0621) ayn\u0131 kelimede birle\u015fince ses 4 kat uzar!","Med harfi + Hemze (\u0621) ayn\u0131 kelimede yan yana gelirse 4 Elif uzat\u0131l\u0131r.",B.Zj,B.a_Q,B.a0b)
-B.XP=s(["\u064a\u064e\u0627 \u0623\u064e\u064a\u0651\u064f\u0647\u064e\u0627","\u0642\u064f\u0648\u0627 \u0623\u064e\u0646\u0641\u064f\u0633\u064e\u0643\u064f\u0645\u0652"],t.s)
-B.a9Y=new A.Kq("\u0625\u0650\u0646\u0651\u064e\u0622 \u0623\u064e\u0639\u0652\u0637\u064e\u064a\u0652\u0646\u064e\u0627\u0643\u064e \u0627\u0644\u0652\u0643\u064e\u0648\u0652\u062b\u064e\u0631\u064e","\u0130nn\xe2\xe2\xe2 a'tayn\xe2kel-kevser","Kevser Suresi, 1","sounds/tecvidler/munfasil_1.mp3")
-B.Z5=s([B.a9Y],t.e)
-B.a5O=new A.Kb("\u064a\u064e\u0622",!0)
-B.a5T=new A.Kb(" ",!1)
-B.a5J=new A.Kb("\u0623\u064e\u064a\u0651\u064f\u0647\u064e\u0627",!1)
-B.ZP=s([B.a5O,B.a5T,B.a5J],t.BQ)
-B.aae=new A.KX(B.ev,"A\u015fa\u011f\u0131daki ifadede k\xf6pr\xfcn\xfcn ba\u015flad\u0131\u011f\u0131 ilk kelimeye dokun!",null,B.ZP,null,0,null,"'Y\xe2' kelimesi biti\u015fikteki 'Eyyuh\xe2'ya Medd-i Munfas\u0131l ile ba\u011flan\u0131r!","sounds/tecvidler/munfasil_1.mp3")
-B.a__=s([B.aae],t.g)
-B.aaq=new A.Lf("med_munfasil","Medd-i Munfas\u0131l","\ud83c\udf09","K\xf6pr\xfc kuran kom\u015fular! Med harfi bir kelimenin sonunda, Uzun Elif kom\u015fu kelimenin ba\u015f\u0131ndad\u0131r.","Ayr\u0131 kelimelerde med harfinden sonra Elif gelirse 4 Elif uzat\u0131l\u0131r.",B.XP,B.Z5,B.a__)
-B.a_f=s(["\u0636\u064e\u0622\u0644\u0650\u0651\u064a\u0646\u064e","\u062d\u064e\u0622\u0642\u064e\u0651\u0629\u064f"],t.s)
-B.aa_=new A.Kq("\u0648\u064e\u0644\u064e\u0627 \u0627\u0644\u0636\u0651\u064e\u0622\u0644\u0650\u0651\u064a\u0646\u064e","Veled-d\xe2\xe2\xe2\xe2ll\xeen (En kuvvetli 4 Elif)","F\xe2tiha Suresi, 7","sounds/tecvidler/lazim_1.mp3")
-B.a02=s([B.aa_],t.e)
-B.a5F=new A.Kb("\u0627\u0644\u0636\u0651\u064e",!1)
-B.a5Q=new A.Kb("\u0622",!0)
-B.a5W=new A.Kb("\u0644\u0650\u0651\u064a\u0646\u064e",!1)
-B.YQ=s([B.a5F,B.a5Q,B.a5W],t.BQ)
-B.aa7=new A.KX(B.ev,"Fatiha'n\u0131n sonundaki en g\xfc\xe7l\xfc Medd-i L\xe2z\u0131m harfine dokun!",null,B.YQ,null,0,null,"Harikas\u0131n! \u015eeddeli Lam harfinden \xf6nceki Elif mutlaka 4 Elif uzat\u0131l\u0131r.","sounds/tecvidler/lazim_1.mp3")
-B.a07=s([B.aa7],t.g)
-B.aas=new A.Lf("med_lazim","Medd-i L\xe2z\u0131m","\ud83c\udfcb\ufe0f\u200d\u2642\ufe0f","A\u011f\u0131r siklet halterci! Med harfinden sonra \u015eedde (\u0651) veya Cezim gelirse uzatmak zorunludur!","Med harfinden sonra l\xe2z\u0131m\xee s\xfck\xfbn gelince mutlaka 4 Elif uzat\u0131l\u0131r.",B.a_f,B.a02,B.a07)
-B.ZI=s(["\u064a\u064e\u0639\u0652\u0644\u064e\u0645\u064f\u0648\u0646\u064e","\u0642\u064f\u0631\u064e\u064a\u0652\u0634\u064d","\u062e\u064e\u0648\u0652\u0641\u064d"],t.s)
-B.a9T=new A.Kq("\u0627\u0644\u0631\u0651\u064e\u062d\u0652\u0645\u0670\u0646\u0650 \u0627\u0644\u0631\u0651\u064e\u062d\u0650\u064a\u0645\u0650 \ud83d\uded1","Er-Rahm\xe2nir-Rah\xee\xeem (\xc2r\u0131z: Durunca uzar)","F\xe2tiha Suresi, 3","sounds/tecvidler/ariz_1.mp3")
-B.Z3=s([B.a9T],t.e)
-B.a_l=s(["Medd-i L\xeen","\u0130kl\xe2b","Kalkale"],t.s)
-B.aai=new A.KX(B.fv,"'\u0642\u064f\u0631\u064e\u064a\u0652\u0634\u064d' kelimesinde cezimli 'Ye' harfi hangi kural\u0131 olu\u015fturur?","\u0642\u064f\u0631\u064e\u064a\u0652\u0634\u064d",null,B.a_l,0,null,"Tebrikler! \xdcst\xfcnden sonra gelen cezimli Ya harfi Medd-i L\xeen'dir.","sounds/tecvidler/lin_1.mp3")
-B.Yi=s([B.aai],t.g)
-B.aan=new A.Lf("med_ariz_lin","Medd-i \xc2r\u0131z & L\xeen","\ud83d\uded1","K\u0131rm\u0131z\u0131 \u0131\u015f\u0131k durak freni ve yumu\u015fac\u0131k ipek yast\u0131k harfleri (\u0648\u0652 - \u064a\u0652)!","Ayet sonunda durunca olu\u015fan ge\xe7ici uzatmad\u0131r.",B.ZI,B.Z3,B.Yi)
-B.XM=s([B.aaz,B.aar,B.aaq,B.aas,B.aan],t.rE)
-B.aaB=new A.Xz("1. Ada: Med Krall\u0131\u011f\u0131","\ud83d\ude80","5 Farkl\u0131 Uzatma Kural\u0131 & Lastik Harfler",B.ej,B.XM)
-B.Za=s(["\u062a","\u062b","\u062c","\u062f","\u0630","\u0632","\u0633","\u0634","\u0635","\u0636","\u0637","\u0638","\u0641","\u0642","\u0643"],t.s)
-B.a9R=new A.Kq("\u0645\u0650\u0646 \u062f\u064f\u0648\u0646\u0650 \u0627\u0644\u0644\u0651\u0670\u0647\u0650","Min.. d\xfbnill\xe2h (Genizden f\u0131s\u0131lt\u0131yla)","Bakara Suresi, 23","sounds/tecvidler/ihfa_1.mp3")
-B.Zs=s([B.a9R],t.e)
-B.RW=new A.cn("1","\u0645\u0650\u0646 \u062f\u064f\u0648\u0646\u0650",!0)
-B.S8=new A.cn("2","\u0643\u064f\u0646\u062a\u064f\u0645\u0652",!0)
-B.Sa=new A.cn("3","\u0623\u064e\u0646\u0652\u0639\u064e\u0645\u0652\u062a\u064e",!1)
-B.S9=new A.cn("4","\u0642\u064f\u0644\u0652 \u0647\u064f\u0648\u064e \u0627\u0644\u0644\u0651\u0670\u0647\u064f",!1)
-B.ZJ=s([B.RW,B.S8,B.Sa,B.S9],t.Fu)
-B.aaf=new A.KX(B.dp,"\u0130hv\xe2 (Gizli Ajan) olan ve olmayan kelimeleri ay\u0131kla!",null,null,null,0,B.ZJ,"Muhte\u015fem! Dal ve Te harfleri 15 gizli ajan\u0131n i\xe7indedir.","sounds/tecvidler/ihfa_1.mp3")
-B.Yk=s([B.aaf],t.g)
-B.aal=new A.Lf("ihfa","\u0130hv\xe2 (Gizli Ajan)","\ud83e\udd77","15 Gizli Ajan Harf! N\xfbn sesi bu harfleri g\xf6r\xfcnce burna saklan\u0131r ve f\u0131s\u0131lt\u0131yla gizlenir.","S\xe2kin N\xfbn veya Tenvinden sonra 15 ihfa harfinden biri gelince ses genizden 1.5 Elif tutulur.",B.Za,B.Zs,B.Yk)
-B.Z6=s(["\u0621","\u0647\u0640","\u0639","\u062d","\u063a","\u062e"],t.s)
-B.a9O=new A.Kq("\u0635\u0650\u0631\u064e\u0627\u0637\u064e \u0627\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e \u0623\u064e\u0646\u0652\u0639\u064e\u0645\u0652\u062a\u064e \u0639\u064e\u0644\u064e\u064a\u0652\u0647\u0650\u0645\u0652","En'amte (N\xfbn net ve berrak)","F\xe2tiha Suresi, 7","sounds/tecvidler/izhar_1.mp3")
-B.Zz=s([B.a9O],t.e)
-B.a5N=new A.Kb("\u0623\u064e",!1)
-B.a5V=new A.Kb("\u0646\u0652\u0639\u064e",!0)
-B.a5R=new A.Kb("\u0645\u0652\u062a\u064e",!1)
-B.a0G=s([B.a5N,B.a5V,B.a5R],t.BQ)
-B.aad=new A.KX(B.ev,"Fatiha'daki apa\xe7\u0131k ve net okunan \u0130zhar'l\u0131 b\xf6l\xfcme dokun!",null,B.a0G,null,0,null,"M\xfckemmel! 'Ayn (\u0639)' bo\u011faz harfi oldu\u011fu i\xe7in N\xfbn p\u0131r\u0131l p\u0131r\u0131l, net okundu.","sounds/tecvidler/izhar_1.mp3")
-B.Zx=s([B.aad],t.g)
-B.aak=new A.Lf("izhar","\u0130zhar (G\xfcne\u015f G\xf6zl\xfc\u011f\xfc)","\u2600\ufe0f","Net ve berrak bo\u011faz harfleri! Hi\xe7bir gizleme yapmadan N\xfbn sesini p\u0131r\u0131l p\u0131r\u0131l okuruz.","S\xe2kin N\xfbn veya Tenvinden sonra Bo\u011faz Harfleri (\u0621 \u0647\u0640 \u0639 \u062d \u063a \u062e) gelince a\xe7\u0131k ve net okunur.",B.Z6,B.Zz,B.Zx)
-B.XV=s(["\u0628"],t.s)
-B.a9Q=new A.Kq("\u0645\u0650\u0646\u06e2 \u0628\u064e\u0639\u0652\u062f\u0650 \u0645\u064e\u0627\u062c\u064e\u0622\u0621\u064e\u062a\u0652\u0647\u064f\u0645\u064f","Mim.. ba'di (Dudaklar hafif biti\u015fik)","Bakara Suresi, 213","sounds/tecvidler/iklab_1.mp3")
-B.XU=s([B.a9Q],t.e)
-B.S1=new A.cn("1","\u0645\u0650\u0646\u06e2 \u0628\u064e\u0639\u0652\u062f\u0650",!0)
-B.S7=new A.cn("2","\u0639\u064e\u0644\u0650\u064a\u0645\u064c\u06e2 \u0628\u0650\u0630\u064e\u0627\u062a\u0650",!0)
-B.Sb=new A.cn("3","\u0645\u0650\u0646 \u0645\u0651\u064e\u0627\u0644\u064d",!1)
-B.RV=new A.cn("4","\u0645\u0650\u0646 \u062f\u064f\u0648\u0646\u0650",!1)
-B.a_i=s([B.S1,B.S7,B.Sb,B.RV],t.Fu)
-B.aab=new A.KX(B.dp,"\u0130kl\xe2b (Sihirbaz Mim) kural\u0131na ait olanlar\u0131 kutulara da\u011f\u0131t!",null,null,null,0,B.a_i,"Harikas\u0131n! 'Be' harfinden \xf6nce gelen N\xfbn veya Tenvin \u0130kl\xe2b olur.","sounds/tecvidler/iklab_1.mp3")
-B.XN=s([B.aab],t.g)
-B.aao=new A.Lf("iklab","\u0130kl\xe2b (Sihirbaz Mim)","\ud83e\uddd9\u200d\u2642\ufe0f","Sihirbaz Mim! N\xfbn sesi 'Be (\u0628)' harfini g\xf6r\xfcnce puf! diye M\xeem (\u0645) sesine d\xf6n\xfc\u015f\xfcr.","S\xe2kin N\xfbn veya Tenvinden sonra 'Be' gelirse N\xfbn sesi M\xeem'e \xe7evrilerek okunur.",B.XV,B.XU,B.XN)
-B.XJ=s(["\u064a","\u0646","\u0645","\u0648"],t.s)
-B.aa2=new A.Kq("\u0648\u064e\u0645\u064e\u0646 \u064a\u0651\u064e\u0639\u0652\u0645\u064e\u0644\u0652 \u0645\u0650\u062b\u0652\u0642\u064e\u0627\u0644\u064e","Vemey.. ya'mel (Ye harfine kaynayarak)","Zilz\xe2l Suresi, 7","sounds/tecvidler/meal_gunne_1.mp3")
-B.a0l=s([B.aa2],t.e)
-B.a5G=new A.Kb("\u0648\u064e",!1)
-B.a5H=new A.Kb("\u0645\u064e\u0646 \u064a\u0651\u064e\u0640",!0)
-B.a5K=new A.Kb("\u0640\u0639\u0652\u0645\u064e\u0644\u0652",!1)
-B.a_L=s([B.a5G,B.a5H,B.a5K],t.BQ)
-B.aa8=new A.KX(B.ev,"'\u0648\u064e\u0645\u064e\u0646 \u064a\u0651\u064e\u0639\u0652\u0645\u064e\u0644\u0652' ifadesinde bal gibi yap\u0131\u015fan \u0130dgam b\xf6l\xfcm\xfcne dokun!",null,B.a_L,null,0,null,"S\xfcpersin! N\xfbn sesi Ye harfine kat\u0131ld\u0131 ve 'Vemeyya'mel' oldu.","sounds/tecvidler/meal_gunne_1.mp3")
-B.Zc=s([B.aa8],t.g)
-B.aap=new A.Lf("idgam_meal_gunne","\u0130dgam-\u0131 Meal Gunne","\ud83c\udf6f","Bal gibi yap\u0131\u015fan YEMN\xdb (\u064a \u0646 \u0645 \u0648) harfleri! N\xfbn bu harflere kaynar ve genizden tatl\u0131ca uzar.","S\xe2kin N\xfbn'dan sonra (\u064a \u0646 \u0645 \u0648) gelirse ses birbirine kat\u0131l\u0131p genizden tutulur.",B.XJ,B.a0l,B.Zc)
-B.Zi=s(["\u0644","\u0631"],t.s)
-B.a9U=new A.Kq("\u0645\u0650\u0651\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652","Mir-rabbihim (Beklemeden R\xe2'ya)","Bakara Suresi, 5","sounds/tecvidler/bila_gunne_2.mp3")
-B.Zt=s([B.a9U],t.e)
-B.a06=s(["Min-Rabbihim","Mir-rabbihim (Roket H\u0131z\u0131yla)","Miiin-Rabbihim"],t.s)
-B.aa6=new A.KX(B.fv,"'\u0645\u0650\u0651\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652' ifadesi nas\u0131l okunur?","\u0645\u0650\u0651\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652",null,B.a06,1,null,"Harika! N\xfbn sesi tamamen R\xe2'ya d\xf6n\xfc\u015ft\xfc ve roket h\u0131z\u0131yla ge\xe7ildi.","sounds/tecvidler/bila_gunne_2.mp3")
-B.a0_=s([B.aa6],t.g)
-B.aax=new A.Lf("idgam_bila_gunne","\u0130dgam-\u0131 Bil\xe2 Gunne","\ud83d\ude80","Roket harfler (L\xe2m ve R\xe2)! Burunda hi\xe7 beklemeden roket h\u0131z\u0131yla \u015feddeliye ge\xe7!","S\xe2kin N\xfbn'dan sonra (\u0644 - \u0631) gelirse genizsiz, direkt \u015feddelenerek okunur.",B.Zi,B.Zt,B.a0_)
-B.YZ=s([B.aal,B.aak,B.aao,B.aap,B.aax],t.rE)
-B.aaC=new A.Xz("2. Ada: S\xe2kin N\xfbn Orman\u0131","\ud83c\udf32","\u0130hfa, \u0130zhar, \u0130klab ve \u0130dgamlar",B.cY,B.YZ)
-B.Qf=new A.k(1,0.9254901960784314,0.2823529411764706,0.6,B.i)
-B.a_Y=s(["\u0642\u0652","\u0637\u0652","\u0628\u0652","\u062c\u0652","\u062f\u0652"],t.s)
-B.aa1=new A.Kq("\u0642\u064f\u0644\u0652 \u0647\u064f\u0648\u064e \u0627\u0644\u0644\u0651\u0670\u0647\u064f \u0623\u064e\u062d\u064e\u062f\u0652 \ud83d\udca5","Kul huvall\xe2hu ehad(d) (Dal z\u0131plar)","\u0130hl\xe2s Suresi, 1","sounds/tecvidler/kalkale_1.mp3")
-B.Zl=s([B.aa1],t.e)
-B.S6=new A.cn("1","\u0623\u064e\u062d\u064e\u062f\u0652 \ud83c\udfc0",!0)
-B.S2=new A.cn("2","\u0627\u0644\u0652\u0641\u064e\u0644\u064e\u0642\u0652 \ud83c\udfc0",!0)
-B.RQ=new A.cn("3","\u0645\u0650\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652",!1)
-B.RZ=new A.cn("4","\u0642\u0650\u064a\u0644\u064e",!1)
-B.ZR=s([B.S6,B.S2,B.RQ,B.RZ],t.Fu)
-B.aaa=new A.KX(B.dp,"Z\u0131playan Kalkale kelimelerini ye\u015fil kutuya at!",null,null,null,0,B.ZR,"Top gibi sekti! Dal ve Kaf harfleri cezimli olunca z\u0131plar.","sounds/tecvidler/kalkale_1.mp3")
-B.a_q=s([B.aaa],t.g)
-B.aay=new A.Lf("kalkale","Kalkale (Z\u0131playan Harfler)","\ud83c\udfc0","Trambolin Tak\u0131m\u0131 (\u0642\u064f\u0637\u0652\u0628\u064f \u062c\u064e\u062f\u0651\u064d)! Cezimli olduklar\u0131nda yerlerinde duramaz, sesleri top gibi seker!","Kalkale harfleri (\u0642 \u0637 \u0628 \u062c \u062f) cezimli oldu\u011funda kuvvetli bir yank\u0131yla s\u0131\xe7rat\u0131l\u0131r.",B.a_Y,B.Zl,B.a_q)
-B.Zu=s(["\u0645\u0652 + \u0645","\u0645\u0652 + \u0628","\u0645\u0652 + Di\u011fer"],t.s)
-B.a9N=new A.Kq("\u062a\u064e\u0631\u0652\u0645\u0650\u064a\u0647\u0650\u0645 \u0628\u0650\u062d\u0650\u062c\u064e\u0627\u0631\u064e\u0629\u064d","Term\xeehim.. bi-hic\xe2rah (Dudak \u0130hfas\u0131)","F\xeel Suresi, 4","sounds/tecvidler/sakin_mim_2.mp3")
-B.a_S=s([B.a9N],t.e)
-B.a5I=new A.Kb("\u062a\u064e\u0631\u0652\u0645\u0650\u064a",!1)
-B.a5S=new A.Kb("\u0647\u0650\u0645 \u0628\u0650\u0640",!0)
-B.a5L=new A.Kb("\u0640\u062d\u0650\u062c\u064e\u0627\u0631\u064e\u0629\u064d",!1)
-B.a_d=s([B.a5I,B.a5S,B.a5L],t.BQ)
-B.aaj=new A.KX(B.ev,"Fil Suresi'ndeki Dudak \u0130hfas\u0131 (\u0645\u0652 + \u0628) b\xf6l\xfcm\xfcne dokun!",null,B.a_d,null,0,null,"Harika tespit! S\xe2kin M\xeem'den sonra 'Be' gelince dudak hafif\xe7e f\u0131s\u0131ldar.","sounds/tecvidler/sakin_mim_2.mp3")
-B.XX=s([B.aaj],t.g)
-B.aam=new A.Lf("sakin_mim","S\xe2kin M\xeem Halleri","\ud83c\udfa7","Dudak Kilidi Operasyonu! M\xeem harfi di\u011fer M\xeem'e yap\u0131\u015f\u0131r, Be'de f\u0131s\u0131ldar, di\u011ferlerinde hemen a\xe7\u0131l\u0131r.","S\xe2kin M\xeem'in 3 hali: \u0130dgam-\u0131 Misleyn (\u0645), \u0130hfa-i \u015eefevi (\u0628), \u0130zhar-\u0131 \u015eefevi (Di\u011ferleri).",B.Zu,B.a_S,B.XX)
-B.Z7=s(["\u0628\u0652 + \u0628","\u062a\u0652 + \u062f","\u0642\u0652 + \u0643"],t.s)
-B.a9P=new A.Kq("\u0627\u0650\u0636\u0652\u0631\u0650\u0628 \u0628\u0650\u0651\u0639\u064e\u0635\u064e\u0627\u0643\u064e","\u0130drib-bi'as\xe2k (Misleyn: Be + Be)","Bakara Suresi, 60","sounds/tecvidler/idgam_c_1.mp3")
-B.a0C=s([B.a9P],t.e)
-B.a0c=s(["\u0130dgam-\u0131 Misleyn (\u0130kizler)","\u0130zhar","Kalkale"],t.s)
-B.aac=new A.KX(B.fv,"'\u0627\u0650\u0636\u0652\u0631\u0650\u0628 \u0628\u0650\u0651\u0639\u064e\u0635\u064e\u0627\u0643\u064e' ifadesinde hangi \u0130dgam t\xfcr\xfc vard\u0131r?","\u0627\u0650\u0636\u0652\u0631\u0650\u0628 \u0628\u0650\u0651\u0639\u064e\u0635\u064e\u0627\u0643\u064e",null,B.a0c,0,null,"Tebrikler! \u0130ki 'Be' harfi yan yana gelerek \u0130kiz \u0130dgam (Misleyn) yapt\u0131.","sounds/tecvidler/idgam_c_1.mp3")
-B.a0I=s([B.aac],t.g)
-B.aaw=new A.Lf("idgam_cesitleri","\u0130dgam \xc7e\u015fitleri","\ud83d\udc65","\u0130kizler ve Akraba Harfler (Misleyn, M\xfctecaniseyn, M\xfctekaribeyn) bir araya gelince tek harf gibi \u015feddelenir.","Ayn\u0131 veya mahre\xe7leri yak\u0131n harfler yan yana gelince birbirine kat\u0131larak okunur.",B.Z7,B.a0C,B.a0I)
-B.a_X=s([B.aay,B.aam,B.aaw],t.rE)
-B.aaD=new A.Xz("3. Ada: Ses Laboratuvar\u0131","\ud83d\udd2c","Kalkale, S\xe2kin M\xeem ve \u0130kiz Harfler",B.Qf,B.a_X)
-B.Z8=s(["\u0631\u064e (\ud83e\udd81 Kal\u0131n)","\u0631\u064f (\ud83e\udd81 Kal\u0131n)","\u0631\u0650 (\ud83d\udc31 \u0130nce)"],t.s)
-B.a9Z=new A.Kq("\u0631\u064e\u0628\u0651\u064e\u0646\u064e\u0627 \u0622\u062a\u0650\u0646\u064e\u0627","Rabbena (\ud83e\udd81 Aslan gibi Kal\u0131n)","Bakara Suresi, 201","sounds/tecvidler/ra_1.mp3")
-B.XL=s([B.a9Z],t.e)
-B.RU=new A.cn("1","\u0631\u064e\u0628\u0651\u064e\u0646\u064e\u0627 (\xdcst\xfcn)",!0)
-B.RS=new A.cn("2","\u0631\u064f\u062d\u064e\u0645\u064e\u0627\u0621\u064f (\xd6tre)",!0)
-B.RP=new A.cn("3","\u0641\u0650\u0631\u0652\u0639\u064e\u0648\u0652\u0646\u064e (Esre)",!1)
-B.S5=new A.cn("4","\u0631\u0650\u062c\u064e\u0627\u0644\u064c (Esre)",!1)
-B.YF=s([B.RU,B.RS,B.RP,B.S5],t.Fu)
-B.aa5=new A.KX(B.dp,"Aslan R\xe2 (\ud83e\udd81 Kal\u0131n) olanlar\u0131 ye\u015fil kutuya yerle\u015ftir!",null,null,null,0,B.YF,"Aslan gibi k\xfckredi! \xdcst\xfcn ve \xd6treli R\xe2 harfleri Kal\u0131n okunur.","sounds/tecvidler/ra_1.mp3")
-B.a_o=s([B.aa5],t.g)
-B.aat=new A.Lf("hukmur_ra","H\xfckm\xfc'r-R\xe2 (Aslan & Kedi)","\ud83e\udd81","\xdcst\xfcn/\xd6trede k\xfckreyen Aslan R\xe2 (Kal\u0131n), Esrede miyavlayan Kedi R\xe2 (\u0130nce)!","R\xe2 harfi \xdcst\xfcn/\xd6tre ile Kal\u0131n, Esre ile \u0130nce okunur.",B.Z8,B.XL,B.a_o)
-B.Zn=s(["\u0648\u064e\u0627\u0644\u0644\u0651\u0670\u0647\u064f (Alt\u0131n)","\u0628\u0650\u0627\u0644\u0644\u0651\u0670\u0647\u0650 (G\xfcm\xfc\u015f)"],t.s)
-B.a9S=new A.Kq("\u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u0670\u0647\u0650","Bismill\xeahi (\ud83d\udc8e \u0130nce / G\xfcm\xfc\u015f Ta\xe7)","F\xe2tiha Suresi, 1","sounds/tecvidler/lafzatullah_2.mp3")
-B.a_k=s([B.a9S],t.e)
-B.a0s=s(["\ud83d\udc8e \u0130NCE (Bill\xeah - G\xfcm\xfc\u015f Ta\xe7)","\ud83d\udc51 KALIN (Bill\xe2h - Alt\u0131n Ta\xe7)"],t.s)
-B.aa4=new A.KX(B.fv,"'\u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u0670\u0647\u0650' ifadesindeki Allah lafz\u0131 nas\u0131l okunur?","\u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u0670\u0647\u0650",null,B.a0s,0,null,"Do\u011fru! \xd6ncesinde Esre oldu\u011fu i\xe7in ince (Bismill\xeah) okundu.","sounds/tecvidler/lafzatullah_2.mp3")
-B.Z9=s([B.aa4],t.g)
-B.aau=new A.Lf("lafzatullah","Lafzatullah (Allah Lafz\u0131)","\ud83d\udc51","Saray Tac\u0131! \xd6nceki harf \xdcst\xfcn/\xd6tre ise Alt\u0131n Ta\xe7 (Kal\u0131n), Esre ise G\xfcm\xfc\u015f Ta\xe7 (\u0130nce) tak\u0131l\u0131r.","Allah lafz\u0131ndan \xf6nceki hareke \xdcst\xfcn/\xd6tre ise Kal\u0131n, Esre ise \u0130nce okunur.",B.Zn,B.a_k,B.Z9)
-B.a0e=s(["\u0644\u064e\u0647\u064f\u06e5 (\ud83d\udfe2 Uzat)","\u0645\u0650\u0646\u0652\u0647\u064f (\ud83d\udd34 Dur)"],t.s)
-B.aa0=new A.Kq("\u0639\u064e\u0646\u0652\u0647\u064f","Anhu (\ud83d\udd34 Cezimli -> Uzat\u0131lmaz)","Kevser Suresi, 2","sounds/tecvidler/zamir_2.mp3")
-B.YO=s([B.aa0],t.e)
-B.a_P=s(["\ud83d\udd34 DUR (Cezimli - Uzat\u0131lmaz)","\ud83d\udfe2 GE\xc7 (Harekeli - Uzat\u0131l\u0131r)"],t.s)
-B.aa3=new A.KX(B.fv,"'\u0639\u064e\u0646\u0652\u0647\u064f' kelimesinde Zamir (\u0640\u0647\u064f) harfi uzat\u0131l\u0131r m\u0131?","\u0639\u064e\u0646\u0652\u0647\u064f",null,B.a_P,0,null,"Trafik kural\u0131 devrede! \xd6n\xfcndeki N\xfbn cezimli oldu\u011fu i\xe7in DURDUK ve uzatmad\u0131k.","sounds/tecvidler/zamir_2.mp3")
-B.a0D=s([B.aa3],t.g)
-B.aav=new A.Lf("zamir","Zamir (Trafik I\u015f\u0131\u011f\u0131 He)","\ud83d\udea6","Trafik Polisi Zamir! \xd6nceki harf harekeli ise Ye\u015fil I\u015f\u0131k (UZAT), cezimli ise K\u0131rm\u0131z\u0131 I\u015f\u0131k (DUR)!","Zamirden (\u0640\u0647\u064f) \xf6nceki harf harekeli ise uzat\u0131l\u0131r, cezimli/harekesiz ise uzat\u0131lmaz.",B.a0e,B.YO,B.a0D)
-B.ZH=s([B.aat,B.aau,B.aav],t.rE)
-B.aaA=new A.Xz("4. Ada: Kraliyet Saray\u0131","\ud83d\udc51","Aslan R\xe2, Lafzatullah & Zamir",B.rE,B.ZH)
-B.au=s([B.aaB,B.aaC,B.aaD,B.aaA],A.aA("J<Xz>"))
+B.Z1=s([18,15,10,12,15,18,15,12,12],t.n)
 B.Kp=new A.aE(0,B.M,B.d0,B.iu,4)
-B.Ze=s([B.Kp],t.V)
-B.Zf=s(["Noto Color Emoji","Noto Sans Symbols","Noto Sans SC","Noto Sans TC","Noto Sans HK","Noto Sans JP","Noto Sans KR"],t.s)
+B.Zf=s([B.Kp],t.V)
+B.Zg=s(["Noto Color Emoji","Noto Sans Symbols","Noto Sans SC","Noto Sans TC","Noto Sans HK","Noto Sans JP","Noto Sans KR"],t.s)
 B.oh=s(["kiyafet","pantolon","ayakkabi","sapka","gozluk","arkaplan","dost"],t.s)
-B.Zk=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.Y)
+B.Zl=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.Y)
 B.d7=new A.l(0,3)
 B.Kh=new A.aE(0,B.M,B.d0,B.d7,6)
 B.Zo=s([B.Kh],t.V)
-B.Zr=s([B.mX,B.rM],t.O)
+B.Zt=s([B.mX,B.rM],t.O)
 B.bv=new A.Lu(0,"icon")
 B.bJ=new A.Lu(1,"input")
 B.aR=new A.Lu(2,"label")
@@ -140718,15 +140549,15 @@ B.vp=s([0,21,51,121,151,191,271,321,360],t.n)
 B.jm=new A.k(1,0.1607843137254902,0.4745098039215686,1,B.i)
 B.jC=new A.k(1,1,0.25098039215686274,0.5058823529411764,B.i)
 B.i7=s([B.bL,B.cG,B.ep,B.bW,B.eq,B.jm,B.f8,B.jC,B.bL,B.cG,B.ep,B.bW,B.eq,B.jm,B.f8,B.jC,B.bL,B.cG,B.ep,B.bW,B.eq,B.jm,B.f8,B.jC,B.bL,B.cG,B.ep,B.bW,B.eq],t.O)
-B.ZM=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.ZK=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.vr=s(["\u0627","\u0628","\u062a","\u062b","\u062c","\u062d","\u062e","\u062f","\u0630","\u0631","\u0632","\u0633","\u0634","\u0635","\u0636","\u0637","\u0638","\u0639","\u063a","\u0641","\u0642","\u0643","\u0644","\u0645","\u0646","\u0647\u0640","\u0648","\u0644\u0627","\u064a"],t.s)
 B.JH=new A.agg(2,"outer")
 B.rx=new A.k(0.09803921568627451,0,0,0,B.i)
 B.Kk=new A.aE(0.2,B.JH,B.rx,B.x,11)
-B.ZO=s([B.Kk],t.V)
+B.ZN=s([B.Kk],t.V)
 B.ts=new A.k(1,0.30980392156862746,0.7647058823529411,0.9686274509803922,B.i)
 B.rd=new A.k(1,0.00784313725490196,0.5333333333333333,0.8196078431372549,B.i)
-B.ZS=s([B.ts,B.rd],t.O)
+B.ZR=s([B.ts,B.rd],t.O)
 B.Ue=new A.cf("sapka_yok","sapka","Yok",null,null,0)
 B.U5=new A.cf("sapka_takke","sapka","Takke","\ud83d\udc73\u200d\u2642\ufe0f",null,50)
 B.Ug=new A.cf("sapka_silindir","sapka","Silindir \u015eapka","\ud83e\udde2",null,60)
@@ -140744,8 +140575,8 @@ B.on=s([B.rL,B.mI],t.O)
 B.Uh=new A.cf("kiyafet_altin","kiyafet","Alt\u0131n Sar\u0131s\u0131",null,B.on,140)
 B.ol=s([B.mY,B.mH],t.O)
 B.Up=new A.cf("kiyafet_yesil","kiyafet","Z\xfcmr\xfct Ye\u015fili",null,B.ol,80)
-B.Zh=s([B.jG,B.rs],t.O)
-B.Ub=new A.cf("kiyafet_pembe","kiyafet","G\xfcl Pembesi",null,B.Zh,90)
+B.Zi=s([B.jG,B.rs],t.O)
+B.Ub=new A.cf("kiyafet_pembe","kiyafet","G\xfcl Pembesi",null,B.Zi,90)
 B.Uw=new A.cf("pantolon_yok","pantolon","Yok",null,B.kq,0)
 B.Un=new A.cf("pantolon_gri","pantolon","Gri",null,B.kq,80)
 B.Uo=new A.cf("pantolon_mavi","pantolon","Mavi",null,B.om,70)
@@ -140756,18 +140587,18 @@ B.Ul=new A.cf("ayakkabi_mavi","ayakkabi","Mavi",null,B.om,50)
 B.Ud=new A.cf("ayakkabi_sari","ayakkabi","Alt\u0131n Sar\u0131s\u0131",null,B.on,140)
 B.Uv=new A.cf("ayakkabi_yesil","ayakkabi","Z\xfcmr\xfct Ye\u015fili",null,B.ol,70)
 B.ti=new A.k(1,0.8823529411764706,0.9607843137254902,0.996078431372549,B.i)
-B.Zg=s([B.hH,B.ti],t.O)
-B.U8=new A.cf("bg_gokyuzu","arkaplan","A\xe7\u0131k G\xf6ky\xfcz\xfc",null,B.Zg,0)
+B.Zh=s([B.hH,B.ti],t.O)
+B.U8=new A.cf("bg_gokyuzu","arkaplan","A\xe7\u0131k G\xf6ky\xfcz\xfc",null,B.Zh,0)
 B.ta=new A.k(1,1,0.6705882352941176,0.5686274509803921,B.i)
-B.a0E=s([B.ta,B.hF],t.O)
-B.U7=new A.cf("bg_gunbatimi","arkaplan","G\xfcn Bat\u0131m\u0131",null,B.a0E,80)
+B.a0D=s([B.ta,B.hF],t.O)
+B.U7=new A.cf("bg_gunbatimi","arkaplan","G\xfcn Bat\u0131m\u0131",null,B.a0D,80)
 B.a0t=s([B.rO,B.tc],t.O)
 B.Uk=new A.cf("bg_yildizli","arkaplan","Y\u0131ld\u0131zl\u0131 Gece",null,B.a0t,120)
 B.t1=new A.k(1,0.3058823529411765,0.20392156862745098,0.1803921568627451,B.i)
 B.Zw=s([B.t1,B.mq],t.O)
 B.UB=new A.cf("bg_kutlu","arkaplan","Kutlu Vakit",null,B.Zw,170)
-B.a_T=s([B.tj,B.rY],t.O)
-B.Uz=new A.cf("bg_bahce","arkaplan","Cennet Bah\xe7esi",null,B.a_T,150)
+B.a_U=s([B.tj,B.rY],t.O)
+B.Uz=new A.cf("bg_bahce","arkaplan","Cennet Bah\xe7esi",null,B.a_U,150)
 B.Ux=new A.cf("dost_yok","dost","Yok",null,null,0)
 B.Ut=new A.cf("dost_kus","dost","K\xfc\xe7\xfck Ku\u015f","\ud83d\udc26",null,50)
 B.Ur=new A.cf("dost_guvercin","dost","G\xfcvercin","\ud83d\udd4a\ufe0f",null,90)
@@ -140808,12 +140639,12 @@ B.ok=s([B.X,B.af],A.aA("J<a8X>"))
 B.LT=new A.Z5(0,"auto")
 B.LU=new A.Z5(1,"full")
 B.LV=new A.Z5(2,"chromium")
-B.a_5=s([B.LT,B.LU,B.LV],A.aA("J<Z5>"))
+B.a_6=s([B.LT,B.LU,B.LV],A.aA("J<Z5>"))
 B.e6=new A.Pn(0,"leading")
 B.cD=new A.Pn(1,"title")
 B.e7=new A.Pn(2,"subtitle")
 B.hd=new A.Pn(3,"trailing")
-B.a_7=s([B.e6,B.cD,B.e7,B.hd],A.aA("J<Pn>"))
+B.a_8=s([B.e6,B.cD,B.e7,B.hd],A.aA("J<Pn>"))
 B.d8=new A.l(0,5)
 B.Kv=new A.aE(0,B.M,B.d0,B.d8,10)
 B.vs=s([B.Kv],t.V)
@@ -140822,14 +140653,14 @@ B.Po=new A.k(1,1,0.8509803921568627,0.23921568627450981,B.i)
 B.Qt=new A.k(1,0.6980392156862745,0.29411764705882354,0.9529411764705882,B.i)
 B.Ow=new A.k(1,1,0.4196078431372549,0.8392156862745098,B.i)
 B.PA=new A.k(1,0,0.8235294117647058,0.8274509803921568,B.i)
-B.a_a=s([B.mv,B.R_,B.Po,B.dh,B.rg,B.Qt,B.Ow,B.PA],t.O)
+B.a_c=s([B.mv,B.R_,B.Po,B.dh,B.rg,B.Qt,B.Ow,B.PA],t.O)
 B.bk=new A.M4(1,"fuchsia")
-B.a_e=s([B.az,B.bk,B.a8,B.bd,B.aO,B.be],A.aA("J<M4>"))
+B.a_h=s([B.az,B.bk,B.a8,B.bd,B.aO,B.be],A.aA("J<M4>"))
 B.a3w=new A.WD(B.uY,"Adalar",null)
 B.a3t=new A.WD(B.uX,"Ders",null)
 B.a3u=new A.WD(B.v_,"Oyun",null)
 B.a3v=new A.WD(B.uZ,"Rozetler",null)
-B.a_g=s([B.a3w,B.a3t,B.a3u,B.a3v],t.p)
+B.a_j=s([B.a3w,B.a3t,B.a3u,B.a3v],t.p)
 B.Hb=new A.a15(0,"topLeft")
 B.He=new A.a15(3,"bottomRight")
 B.akl=new A.Sl(B.Hb,B.He)
@@ -140838,7 +140669,7 @@ B.Hc=new A.a15(1,"topRight")
 B.Hd=new A.a15(2,"bottomLeft")
 B.akm=new A.Sl(B.Hc,B.Hd)
 B.akn=new A.Sl(B.Hd,B.Hc)
-B.a_h=s([B.akl,B.ako,B.akm,B.akn],A.aA("J<Sl>"))
+B.a_k=s([B.akl,B.ako,B.akm,B.akn],A.aA("J<Sl>"))
 B.Ir=new A.aX("\u0646\u064f\u0648\u0631\u064c","sounds/kelimeler/nurun.mp3")
 B.Jg=new A.aX("\u0635\u064e\u0628\u0652\u0631\u064c","sounds/kelimeler/sabrun.mp3")
 B.J0=new A.aX("\u062d\u064f\u0628\u0651\u064c","sounds/kelimeler/hubbun.mp3")
@@ -140863,8 +140694,8 @@ B.IN=new A.aX("\u0642\u064e\u0645\u064e\u0631\u064e","sounds/kelimeler/kamera.mp
 B.Ix=new A.aX("\u062e\u064e\u064a\u0652\u0631\u064b\u0627","sounds/kelimeler/hayran.mp3")
 B.Io=new A.aX("\u0630\u0650\u0643\u0652\u0631\u064d","sounds/kelimeler/zikrin.mp3")
 B.IE=new A.aX("\u0641\u064e\u062c\u0652\u0631\u064c","sounds/kelimeler/fecrun.mp3")
-B.a_j=s([B.Ir,B.Jg,B.J0,B.Jm,B.Jf,B.IM,B.Jj,B.IW,B.Jl,B.J3,B.Jn,B.IH,B.J5,B.ID,B.J4,B.Iq,B.IG,B.J9,B.J_,B.Jr,B.IN,B.Ix,B.Io,B.IE],t.Hy)
-B.a_n=s([35,30,20,25,30,35,30,25,25],t.n)
+B.a_n=s([B.Ir,B.Jg,B.J0,B.Jm,B.Jf,B.IM,B.Jj,B.IW,B.Jl,B.J3,B.Jn,B.IH,B.J5,B.ID,B.J4,B.Iq,B.IG,B.J9,B.J_,B.Jr,B.IN,B.Ix,B.Io,B.IE],t.Hy)
+B.a_q=s([35,30,20,25,30,35,30,25,25],t.n)
 B.I4=new A.cU("elif","\u0623","\u0627","\u0640\u0627","\u0640\u0627","\u0627\u064e\u0644\u0652\u062d\u064e\u0645\u0652\u062f\u064f","\u0642\u064e\u0627\u0644\u064e","\u0643\u0650\u062a\u064e\u0627\u0628\u0627\u064b")
 B.HQ=new A.cU("be","\u0628","\u0628\u0640","\u0640\u0628\u0640","\u0640\u0628","\u0628\u064e\u064a\u0652\u062a\u064c","\u0635\u064e\u0628\u064e\u062d\u064e","\u0630\u064e\u0647\u064e\u0628\u064e")
 B.I5=new A.cU("te","\u062a","\u062a\u0640","\u0640\u062a\u0640","\u0640\u062a","\u062a\u064e\u0645\u0652\u0631\u064c","\u0643\u064e\u062a\u064e\u0628\u064e","\u0628\u064e\u064a\u0652\u062a\u064c")
@@ -140924,39 +140755,39 @@ B.Ji=new A.aX("\u0646","sounds/harfler/nun.mp3")
 B.Iv=new A.aX("\u0647\u0640","sounds/harfler/he.mp3")
 B.J2=new A.aX("\u0648","sounds/harfler/vav.mp3")
 B.IS=new A.aX("\u064a","sounds/harfler/ye.mp3")
-B.a_s=s([B.It,B.Im,B.IJ,B.J7,B.IT,B.IC,B.Jv,B.Ja,B.Ip,B.Jp,B.IZ,B.Jo,B.Iz,B.Jq,B.Je,B.IU,B.Iw,B.J8,B.IL,B.IF,B.Jd,B.Jb,B.Jc,B.J6,B.Ji,B.Iv,B.J2,B.IS],t.Hy)
-B.a_t=s(["click","scroll"],t.s)
+B.a_v=s([B.It,B.Im,B.IJ,B.J7,B.IT,B.IC,B.Jv,B.Ja,B.Ip,B.Jp,B.IZ,B.Jo,B.Iz,B.Jq,B.Je,B.IU,B.Iw,B.J8,B.IL,B.IF,B.Jd,B.Jb,B.Jc,B.J6,B.Ji,B.Iv,B.J2,B.IS],t.Hy)
+B.a_w=s(["click","scroll"],t.s)
 B.KB=new A.YQ()
 B.kX=new A.alV(1,"page")
 B.kY=new A.Lq(B.bV,B.kX)
-B.a_u=s([B.KB,B.kY],A.aA("J<bn>"))
-B.a_E=s([],t.QP)
-B.a_J=s([],t.V)
+B.a_x=s([B.KB,B.kY],A.aA("J<bn>"))
+B.a_H=s([],t.QP)
+B.a_M=s([],t.V)
 B.vx=s([],A.aA("J<d4A>"))
-B.a_I=s([],t.E)
-B.a_A=s([],t.fJ)
-B.a_H=s([],t.ER)
+B.a_L=s([],t.E)
+B.a_D=s([],t.fJ)
+B.a_K=s([],t.ER)
 B.am5=s([],t.ss)
 B.oq=s([],t.tc)
 B.kr=s([],t.jl)
 B.vu=s([],t.wi)
 B.vw=s([],A.aA("J<Q7<@>>"))
 B.op=s([],t.AO)
-B.a_G=s([],t.D1)
+B.a_J=s([],t.D1)
 B.ks=s([],t.QF)
-B.a_F=s([],t.Lx)
-B.a_C=s([],t.AS)
+B.a_I=s([],t.Lx)
+B.a_F=s([],t.AS)
 B.oo=s([],t.p)
-B.a_B=s([],t.n)
-B.a_y=s([],t.Y)
+B.a_E=s([],t.n)
+B.a_B=s([],t.Y)
 B.vv=s([],t.ee)
-B.a_D=s([],t.XS)
+B.a_G=s([],t.XS)
 B.a7I=new A.U1(0,"birinci")
 B.a7J=new A.U1(1,"ikinci")
 B.a7K=new A.U1(2,"ucuncu")
 B.a7L=new A.U1(3,"dorduncu")
 B.a7M=new A.U1(4,"besinci")
-B.a_K=s([B.a7I,B.a7J,B.a7K,B.a7L,B.a7M],A.aA("J<U1>"))
+B.a_N=s([B.a7I,B.a7J,B.a7K,B.a7L,B.a7M],A.aA("J<U1>"))
 B.MV=new A.bf("\u0631\u064e\u062d\u0652\u0645\u064e\u0629\u064b",B.cH,"sounds/kelimeler/rahmeten.mp3")
 B.Mi=new A.bf("\u0635\u064e\u0644\u064e\u0627\u0629\u064c",B.en,"sounds/kelimeler/salatun.mp3")
 B.My=new A.bf("\u0646\u0650\u0639\u0652\u0645\u064e\u0629\u064d",B.er,"sounds/kelimeler/nimetin.mp3")
@@ -140969,9 +140800,9 @@ B.Mh=new A.bf("\u062a\u064e\u0648\u0652\u0628\u064e\u0629\u064b",B.hE,"sounds/ke
 B.MS=new A.bf("\u0622\u064a\u064e\u0629\u064d",B.cH,"sounds/kelimeler/ayetin.mp3")
 B.Mn=new A.bf("\u0642\u064f\u0644\u064f\u0648\u0628\u064c",B.cJ,"sounds/kelimeler/kulubun.mp3")
 B.Mg=new A.bf("\u0639\u064e\u0630\u064e\u0627\u0628\u064d",B.hD,"sounds/kelimeler/azabin.mp3")
-B.a_U=s([B.MV,B.Mi,B.My,B.M2,B.Mz,B.Mk,B.MM,B.MH,B.Mh,B.MS,B.Mn,B.Mg],t.FC)
+B.a_V=s([B.MV,B.Mi,B.My,B.M2,B.Mz,B.Mk,B.MM,B.MH,B.Mh,B.MS,B.Mn,B.Mg],t.FC)
 B.Kj=new A.aE(0.75,B.M,B.rx,B.iu,1.5)
-B.a_W=s([B.Kj],t.V)
+B.a_X=s([B.Kj],t.V)
 B.M3=new A.bf("\u0634",B.er,"sounds/harfler/\u015f\u0131n.mp3")
 B.M_=new A.bf("\u0635",B.en,"sounds/harfler/sadd.mp3")
 B.Me=new A.bf("\u0636",B.cH,"sounds/harfler/dadd.mp3")
@@ -140989,21 +140820,190 @@ B.Mq=new A.bf("\u0647\u0640",B.en,"sounds/harfler/he.mp3")
 B.M5=new A.bf("\u0648",B.eo,"sounds/harfler/vav.mp3")
 B.MD=new A.bf("\u064a",B.fe,"sounds/harfler/ye.mp3")
 B.MA=new A.bf("\u0644\u0627",B.ff,"sounds/harfler/lamelif.mp3")
-B.a05=s([B.M3,B.M_,B.Me,B.MI,B.Mf,B.Mc,B.MN,B.MW,B.M0,B.MP,B.Md,B.MT,B.MJ,B.Mq,B.M5,B.MD,B.MA],t.FC)
+B.a04=s([B.M3,B.M_,B.Me,B.MI,B.Mf,B.Mc,B.MN,B.MW,B.M0,B.MP,B.Md,B.MT,B.MJ,B.Mq,B.M5,B.MD,B.MA],t.FC)
 B.tl=new A.k(1,0.8156862745098039,0,0,B.i)
 B.a46=new A.l(0,3.5)
 B.Kn=new A.aE(0,B.M,B.tl,B.a46,0)
-B.a09=s([B.Kn],t.V)
+B.a08=s([B.Kn],t.V)
 B.Kl=new A.aE(0,B.M,B.d0,B.x,5)
-B.a0a=s([B.Kl],t.V)
+B.a09=s([B.Kl],t.V)
 B.i8=s([B.e9,B.dN,B.ja,B.jb,B.m5],t.QP)
+B.ZI=s(["\u0648","\u064a","\u0627"],t.s)
+B.a9Y=new A.Kq("\u0642\u064e\u0627\u0644\u064e \u0631\u064e\u0628\u0650\u0651\u064a","(Elif ile 1 Elif uzat\u0131l\u0131r)","Meryem Suresi","sounds/tecvidler/asli_med_1.mp3")
+B.a9U=new A.Kq("\u0642\u0650\u064a\u0644\u064e \u0644\u064e\u0647\u064f\u0645\u0652","(Ya ile 1 Elif uzat\u0131l\u0131r)","Bakara Suresi, 11","sounds/tecvidler/asli_med_2.mp3")
+B.a9R=new A.Kq("\u064a\u064e\u0642\u064f\u0648\u0644\u064f\u0648\u0646\u064e","(Vav ile uzat\u0131l\u0131r)","Bakara Suresi, 8","sounds/tecvidler/asli_med_3.mp3")
+B.ZS=s([B.a9Y,B.a9U,B.a9R],t.e)
+B.S_=new A.cn("1","\u0642\u064e\u0627\u0644\u064e",!0)
+B.RR=new A.cn("2","\u0645\u0650\u0646\u06e2 \u0628\u064e\u0639\u0652\u062f\u0650",!1)
+B.RY=new A.cn("3","\u0642\u0650\u064a\u0644\u064e",!0)
+B.S3=new A.cn("4","\u0623\u064e\u062d\u064e\u062f\u0652",!1)
+B.ZJ=s([B.S_,B.RR,B.RY,B.S3],t.Fu)
+B.aah=new A.KX(B.dp,"Kelimeleri uygun kutulara s\xfcr\xfckleyip b\u0131rak!",null,null,null,0,B.ZJ,"Harika! 'K\xe2le' ve 'K\xeele' Asl\xee Med kural\u0131na aittir.","sounds/tecvidler/asli_med_1.mp3")
+B.a5M=new A.Kb("\u0642\u064e",!1)
+B.a5U=new A.Kb("\u0627",!0)
+B.a5P=new A.Kb("\u0644\u064e",!1)
+B.YQ=s([B.a5M,B.a5U,B.a5P],t.BQ)
+B.aa8=new A.KX(B.ev,"\u0642\u064e\u0627\u0644\u064e kelimesindeki sesi uzatan Med (Elif) harfine dokun!",null,B.YQ,null,0,null,"Tebrikler! Hareketsiz Elif harfi 'Kaf' harfini 1 Elif uzatt\u0131.","sounds/tecvidler/asli_med_1.mp3")
+B.a0p=s([B.aah,B.aa8],t.g)
+B.aal=new A.Lf("asli_med","Asl\xee Med (Lastik Harfler)","\ud83e\udea2","V-A-Y harfleri sessizce uzat\u0131r! Kendisinden \xf6nceki sesi 1 Elif uzatan elastik lastiklerdir.","Hareketsiz (\u0648 - \u064a - \u0627) harfleri bir \xf6nceki harfi 1 parmak kald\u0131racak kadar uzat\u0131r.",B.ZI,B.ZS,B.a0p)
+B.Zk=s(["\u062c\u064e\u0627\u0621\u064e","\u0627\u0644\u0633\u0651\u064e\u0645\u064e\u0627\u0621\u0650","\u0633\u064f\u0648\u0621\u064e"],t.s)
+B.a9Z=new A.Kq("\u0625\u0650\u0630\u064e\u0627 \u062c\u064e\u0622\u0621\u064e \u0646\u064e\u0635\u0652\u0631\u064f \u0627\u0644\u0644\u0651\u0670\u0647\u0650","(4 Elif uzat\u0131l\u0131r)","Nasr Suresi, 1","sounds/tecvidler/muttasil_1.mp3")
+B.a9S=new A.Kq("\u0648\u064e\u0627\u0644\u0633\u0651\u064e\u0645\u064e\u0622\u0621\u0650 \u0630\u064e\u0627\u062a\u0650 \u0627\u0644\u0652\u0628\u064f\u0631\u064f\u0648\u062c\u0650","","Bur\xfbc Suresi, 1","sounds/tecvidler/muttasil_2.mp3")
+B.Zp=s([B.a9Z,B.a9S],t.e)
+B.S4=new A.cn("1","\u062c\u064e\u0622\u0621\u064e",!0)
+B.RT=new A.cn("2","\u0627\u0644\u0633\u0651\u064e\u0645\u064e\u0622\u0621\u0650",!0)
+B.S0=new A.cn("3","\u064a\u064e\u0627 \u0623\u064e\u064a\u0651\u064f\u0647\u064e\u0627",!1)
+B.RX=new A.cn("4","\u0645\u0650\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652",!1)
+B.a_Z=s([B.S4,B.RT,B.S0,B.RX],t.Fu)
+B.aag=new A.KX(B.dp,"Medd-i Muttas\u0131l olan ve olmayan kelimeleri ay\u0131r!",null,null,null,0,B.a_Z,"S\xfcpersin! C\xe2e ve Sem\xe2 kelimeleri ayn\u0131 evde K\u0131r\u0131k Hemze bar\u0131nd\u0131r\u0131r.","sounds/tecvidler/muttasil_1.mp3")
+B.a0a=s([B.aag],t.g)
+B.aat=new A.Lf("med_muttasil","Medd-i Muttas\u0131l","\ud83c\udff0","Ayn\u0131 evdeki dev karde\u015fler! Med harfi ile K\u0131r\u0131k Hemze (\u0621) ayn\u0131 kelimede birle\u015fince ses 4 kat uzar!","Med harfi + Hemze (\u0621) ayn\u0131 kelimede yan yana gelirse 4 Elif uzat\u0131l\u0131r.",B.Zk,B.Zp,B.a0a)
+B.XN=s(["\u064a\u064e\u0627 \u0623\u064e\u064a\u0651\u064f\u0647\u064e\u0627","\u0642\u064f\u0648\u0627 \u0623\u064e\u0646\u0641\u064f\u0633\u064e\u0643\u064f\u0645\u0652"],t.s)
+B.a9O=new A.Kq("\u0625\u0650\u0646\u0651\u064e\u0622 \u0623\u064e\u0639\u0652\u0637\u064e\u064a\u0652\u0646\u064e\u0627\u0643\u064e \u0627\u0644\u0652\u0643\u064e\u0648\u0652\u062b\u064e\u0631\u064e","","Kevser Suresi, 1","sounds/tecvidler/munfasil_1.mp3")
+B.a_l=s([B.a9O],t.e)
+B.a5O=new A.Kb("\u064a\u064e\u0622",!0)
+B.a5T=new A.Kb(" ",!1)
+B.a5J=new A.Kb("\u0623\u064e\u064a\u0651\u064f\u0647\u064e\u0627",!1)
+B.ZO=s([B.a5O,B.a5T,B.a5J],t.BQ)
+B.aad=new A.KX(B.ev,"A\u015fa\u011f\u0131daki ifadede k\xf6pr\xfcn\xfcn ba\u015flad\u0131\u011f\u0131 ilk kelimeye dokun!",null,B.ZO,null,0,null,"'Y\xe2' kelimesi biti\u015fikteki 'Eyyuh\xe2'ya Medd-i Munfas\u0131l ile ba\u011flan\u0131r!","sounds/tecvidler/munfasil_1.mp3")
+B.a__=s([B.aad],t.g)
+B.aam=new A.Lf("med_munfasil","Medd-i Munfas\u0131l","\ud83c\udf09","K\xf6pr\xfc kuran kom\u015fular! Med harfi bir kelimenin sonunda, Uzun Elif kom\u015fu kelimenin ba\u015f\u0131ndad\u0131r.","Ayr\u0131 kelimelerde med harfinden sonra Elif gelirse 4 Elif uzat\u0131l\u0131r.",B.XN,B.a_l,B.a__)
+B.a_i=s(["\u0636\u064e\u0622\u0644\u0650\u0651\u064a\u0646\u064e","\u062d\u064e\u0622\u0642\u064e\u0651\u0629\u064f"],t.s)
+B.aa2=new A.Kq("\u0648\u064e\u0644\u064e\u0627 \u0627\u0644\u0636\u0651\u064e\u0622\u0644\u0650\u0651\u064a\u0646\u064e","(En kuvvetli 4 Elif)","F\xe2tiha Suresi, 7","sounds/tecvidler/lazim_1.mp3")
+B.a_g=s([B.aa2],t.e)
+B.a5F=new A.Kb("\u0627\u0644\u0636\u0651\u064e",!1)
+B.a5Q=new A.Kb("\u0622",!0)
+B.a5W=new A.Kb("\u0644\u0650\u0651\u064a\u0646\u064e",!1)
+B.YR=s([B.a5F,B.a5Q,B.a5W],t.BQ)
+B.aa5=new A.KX(B.ev,"Fatiha'n\u0131n sonundaki en g\xfc\xe7l\xfc Medd-i L\xe2z\u0131m harfine dokun!",null,B.YR,null,0,null,"Harikas\u0131n! \u015eeddeli Lam harfinden \xf6nceki Elif mutlaka 4 Elif uzat\u0131l\u0131r.","sounds/tecvidler/lazim_1.mp3")
+B.a06=s([B.aa5],t.g)
+B.aau=new A.Lf("med_lazim","Medd-i L\xe2z\u0131m","\ud83c\udfcb\ufe0f\u200d\u2642\ufe0f","A\u011f\u0131r siklet halterci! Med harfinden sonra \u015eedde (\u0651) veya Cezim gelirse uzatmak zorunludur!","Med harfinden sonra l\xe2z\u0131m\xee s\xfck\xfbn gelince mutlaka 4 Elif uzat\u0131l\u0131r.",B.a_i,B.a_g,B.a06)
+B.ZG=s(["\u064a\u064e\u0639\u0652\u0644\u064e\u0645\u064f\u0648\u0646\u064e","\u0642\u064f\u0631\u064e\u064a\u0652\u0634\u064d","\u062e\u064e\u0648\u0652\u0641\u064d"],t.s)
+B.a9T=new A.Kq("\u0627\u0644\u0631\u0651\u064e\u062d\u0652\u0645\u0670\u0646\u0650 \u0627\u0644\u0631\u0651\u064e\u062d\u0650\u064a\u0645\u0650 \ud83d\uded1","(\xc2r\u0131z: Durunca uzar)","F\xe2tiha Suresi, 3","sounds/tecvidler/ariz_1.mp3")
+B.a0j=s([B.a9T],t.e)
+B.a_o=s(["Medd-i L\xeen","\u0130kl\xe2b","Kalkale"],t.s)
+B.aai=new A.KX(B.fv,"'\u0642\u064f\u0631\u064e\u064a\u0652\u0634\u064d' kelimesinde cezimli 'Ye' harfi hangi kural\u0131 olu\u015fturur?","\u0642\u064f\u0631\u064e\u064a\u0652\u0634\u064d",null,B.a_o,0,null,"Tebrikler! \xdcst\xfcnden sonra gelen cezimli Ya harfi Medd-i L\xeen'dir.","sounds/tecvidler/lin_1.mp3")
+B.Yh=s([B.aai],t.g)
+B.aay=new A.Lf("med_ariz_lin","Medd-i \xc2r\u0131z & L\xeen","\ud83d\uded1","K\u0131rm\u0131z\u0131 \u0131\u015f\u0131k durak freni ve yumu\u015fac\u0131k ipek yast\u0131k harfleri (\u0648\u0652 - \u064a\u0652)!","Ayet sonunda durunca olu\u015fan ge\xe7ici uzatmad\u0131r.",B.ZG,B.a0j,B.Yh)
+B.Zq=s([B.aal,B.aat,B.aam,B.aau,B.aay],t.rE)
+B.aaC=new A.Xz("1. Ada: Med Krall\u0131\u011f\u0131","\ud83d\ude80","5 Farkl\u0131 Uzatma Kural\u0131 & Lastik Harfler",B.ej,B.Zq)
+B.Za=s(["\u062a","\u062b","\u062c","\u062f","\u0630","\u0632","\u0633","\u0634","\u0635","\u0636","\u0637","\u0638","\u0641","\u0642","\u0643"],t.s)
+B.a9N=new A.Kq("\u0645\u0650\u0646 \u062f\u064f\u0648\u0646\u0650 \u0627\u0644\u0644\u0651\u0670\u0647\u0650","(Genizden f\u0131s\u0131lt\u0131yla)","Bakara Suresi, 23","sounds/tecvidler/ihfa_1.mp3")
+B.Zc=s([B.a9N],t.e)
+B.RW=new A.cn("1","\u0645\u0650\u0646 \u062f\u064f\u0648\u0646\u0650",!0)
+B.S8=new A.cn("2","\u0643\u064f\u0646\u062a\u064f\u0645\u0652",!0)
+B.Sa=new A.cn("3","\u0623\u064e\u0646\u0652\u0639\u064e\u0645\u0652\u062a\u064e",!1)
+B.S9=new A.cn("4","\u0642\u064f\u0644\u0652 \u0647\u064f\u0648\u064e \u0627\u0644\u0644\u0651\u0670\u0647\u064f",!1)
+B.ZH=s([B.RW,B.S8,B.Sa,B.S9],t.Fu)
+B.aae=new A.KX(B.dp,"\u0130hv\xe2 (Gizli Ajan) olan ve olmayan kelimeleri ay\u0131kla!",null,null,null,0,B.ZH,"Muhte\u015fem! Dal ve Te harfleri 15 gizli ajan\u0131n i\xe7indedir.","sounds/tecvidler/ihfa_1.mp3")
+B.Yj=s([B.aae],t.g)
+B.aaw=new A.Lf("ihfa","\u0130hv\xe2 (Gizli Ajan)","\ud83e\udd77","15 Gizli Ajan Harf! N\xfbn sesi bu harfleri g\xf6r\xfcnce burna saklan\u0131r ve f\u0131s\u0131lt\u0131yla gizlenir.","S\xe2kin N\xfbn veya Tenvinden sonra 15 ihfa harfinden biri gelince ses genizden 1.5 Elif tutulur.",B.Za,B.Zc,B.Yj)
+B.Z6=s(["\u0621","\u0647\u0640","\u0639","\u062d","\u063a","\u062e"],t.s)
+B.a9P=new A.Kq("\u0635\u0650\u0631\u064e\u0627\u0637\u064e \u0627\u0644\u0651\u064e\u0630\u0650\u064a\u0646\u064e \u0623\u064e\u0646\u0652\u0639\u064e\u0645\u0652\u062a\u064e \u0639\u064e\u0644\u064e\u064a\u0652\u0647\u0650\u0645\u0652","(N\xfbn net ve berrak)","F\xe2tiha Suresi, 7","sounds/tecvidler/izhar_1.mp3")
+B.ZM=s([B.a9P],t.e)
+B.a5N=new A.Kb("\u0623\u064e",!1)
+B.a5V=new A.Kb("\u0646\u0652\u0639\u064e",!0)
+B.a5R=new A.Kb("\u0645\u0652\u062a\u064e",!1)
+B.a0F=s([B.a5N,B.a5V,B.a5R],t.BQ)
+B.aac=new A.KX(B.ev,"Fatiha'daki apa\xe7\u0131k ve net okunan \u0130zhar'l\u0131 b\xf6l\xfcme dokun!",null,B.a0F,null,0,null,"M\xfckemmel! 'Ayn (\u0639)' bo\u011faz harfi oldu\u011fu i\xe7in N\xfbn p\u0131r\u0131l p\u0131r\u0131l, net okundu.","sounds/tecvidler/izhar_1.mp3")
+B.Zx=s([B.aac],t.g)
+B.aap=new A.Lf("izhar","\u0130zhar (G\xfcne\u015f G\xf6zl\xfc\u011f\xfc)","\u2600\ufe0f","Net ve berrak bo\u011faz harfleri! Hi\xe7bir gizleme yapmadan N\xfbn sesini p\u0131r\u0131l p\u0131r\u0131l okuruz.","S\xe2kin N\xfbn veya Tenvinden sonra Bo\u011faz Harfleri (\u0621 \u0647\u0640 \u0639 \u062d \u063a \u062e) gelince a\xe7\u0131k ve net okunur.",B.Z6,B.ZM,B.Zx)
+B.XT=s(["\u0628"],t.s)
+B.a9Q=new A.Kq("\u0645\u0650\u0646\u06e2 \u0628\u064e\u0639\u0652\u062f\u0650 \u0645\u064e\u0627\u062c\u064e\u0622\u0621\u064e\u062a\u0652\u0647\u064f\u0645\u064f","(Dudaklar hafif biti\u015fik)","Bakara Suresi, 213","sounds/tecvidler/iklab_1.mp3")
+B.Z4=s([B.a9Q],t.e)
+B.S1=new A.cn("1","\u0645\u0650\u0646\u06e2 \u0628\u064e\u0639\u0652\u062f\u0650",!0)
+B.S7=new A.cn("2","\u0639\u064e\u0644\u0650\u064a\u0645\u064c\u06e2 \u0628\u0650\u0630\u064e\u0627\u062a\u0650",!0)
+B.Sb=new A.cn("3","\u0645\u0650\u0646 \u0645\u0651\u064e\u0627\u0644\u064d",!1)
+B.RV=new A.cn("4","\u0645\u0650\u0646 \u062f\u064f\u0648\u0646\u0650",!1)
+B.a_m=s([B.S1,B.S7,B.Sb,B.RV],t.Fu)
+B.aaa=new A.KX(B.dp,"\u0130kl\xe2b (Sihirbaz Mim) kural\u0131na ait olanlar\u0131 kutulara da\u011f\u0131t!",null,null,null,0,B.a_m,"Harikas\u0131n! 'Be' harfinden \xf6nce gelen N\xfbn veya Tenvin \u0130kl\xe2b olur.","sounds/tecvidler/iklab_1.mp3")
+B.XL=s([B.aaa],t.g)
+B.aan=new A.Lf("iklab","\u0130kl\xe2b (Sihirbaz Mim)","\ud83e\uddd9\u200d\u2642\ufe0f","Sihirbaz Mim! N\xfbn sesi 'Be (\u0628)' harfini g\xf6r\xfcnce puf! diye M\xeem (\u0645) sesine d\xf6n\xfc\u015f\xfcr.","S\xe2kin N\xfbn veya Tenvinden sonra 'Be' gelirse N\xfbn sesi M\xeem'e \xe7evrilerek okunur.",B.XT,B.Z4,B.XL)
+B.XJ=s(["\u064a","\u0646","\u0645","\u0648"],t.s)
+B.a9X=new A.Kq("\u0648\u064e\u0645\u064e\u0646 \u064a\u0651\u064e\u0639\u0652\u0645\u064e\u0644\u0652 \u0645\u0650\u062b\u0652\u0642\u064e\u0627\u0644\u064e","(Ye harfine kaynayarak)","Zilz\xe2l Suresi, 7","sounds/tecvidler/meal_gunne_1.mp3")
+B.a_4=s([B.a9X],t.e)
+B.a5G=new A.Kb("\u0648\u064e",!1)
+B.a5H=new A.Kb("\u0645\u064e\u0646 \u064a\u0651\u064e\u0640",!0)
+B.a5K=new A.Kb("\u0640\u0639\u0652\u0645\u064e\u0644\u0652",!1)
+B.a_O=s([B.a5G,B.a5H,B.a5K],t.BQ)
+B.aa6=new A.KX(B.ev,"'\u0648\u064e\u0645\u064e\u0646 \u064a\u0651\u064e\u0639\u0652\u0645\u064e\u0644\u0652' ifadesinde bal gibi yap\u0131\u015fan \u0130dgam b\xf6l\xfcm\xfcne dokun!",null,B.a_O,null,0,null,"S\xfcpersin! N\xfbn sesi Ye harfine kat\u0131ld\u0131 ve 'Vemeyya'mel' oldu.","sounds/tecvidler/meal_gunne_1.mp3")
+B.Zd=s([B.aa6],t.g)
+B.aaq=new A.Lf("idgam_meal_gunne","\u0130dgam-\u0131 Meal Gunne","\ud83c\udf6f","Bal gibi yap\u0131\u015fan YEMN\xdb (\u064a \u0646 \u0645 \u0648) harfleri! N\xfbn bu harflere kaynar ve genizden tatl\u0131ca uzar.","S\xe2kin N\xfbn'dan sonra (\u064a \u0646 \u0645 \u0648) gelirse ses birbirine kat\u0131l\u0131p genizden tutulur.",B.XJ,B.a_4,B.Zd)
+B.Zj=s(["\u0644","\u0631"],t.s)
+B.a9M=new A.Kq("\u0645\u0650\u0651\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652","(Beklemeden R\xe2'ya)","Bakara Suresi, 5","sounds/tecvidler/bila_gunne_2.mp3")
+B.YD=s([B.a9M],t.e)
+B.a05=s(["Min-Rabbihim","Mir-rabbihim (Roket H\u0131z\u0131yla)","Miiin-Rabbihim"],t.s)
+B.aa4=new A.KX(B.fv,"'\u0645\u0650\u0651\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652' ifadesi nas\u0131l okunur?","\u0645\u0650\u0651\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652",null,B.a05,1,null,"Harika! N\xfbn sesi tamamen R\xe2'ya d\xf6n\xfc\u015ft\xfc ve roket h\u0131z\u0131yla ge\xe7ildi.","sounds/tecvidler/bila_gunne_2.mp3")
+B.a0_=s([B.aa4],t.g)
+B.aav=new A.Lf("idgam_bila_gunne","\u0130dgam-\u0131 Bil\xe2 Gunne","\ud83d\ude80","Roket harfler (L\xe2m ve R\xe2)! Burunda hi\xe7 beklemeden roket h\u0131z\u0131yla \u015feddeliye ge\xe7!","S\xe2kin N\xfbn'dan sonra (\u0644 - \u0631) gelirse genizsiz, direkt \u015feddelenerek okunur.",B.Zj,B.YD,B.a0_)
+B.a0s=s([B.aaw,B.aap,B.aan,B.aaq,B.aav],t.rE)
+B.aaB=new A.Xz("2. Ada: S\xe2kin N\xfbn Orman\u0131","\ud83c\udf32","\u0130hfa, \u0130zhar, \u0130klab ve \u0130dgamlar",B.cY,B.a0s)
+B.Qf=new A.k(1,0.9254901960784314,0.2823529411764706,0.6,B.i)
+B.a_Y=s(["\u0642\u0652","\u0637\u0652","\u0628\u0652","\u062c\u0652","\u062f\u0652"],t.s)
+B.a9V=new A.Kq("\u0642\u064f\u0644\u0652 \u0647\u064f\u0648\u064e \u0627\u0644\u0644\u0651\u0670\u0647\u064f \u0623\u064e\u062d\u064e\u062f\u0652 \ud83d\udca5","(Dal z\u0131plar)","\u0130hl\xe2s Suresi, 1","sounds/tecvidler/kalkale_1.mp3")
+B.XV=s([B.a9V],t.e)
+B.S6=new A.cn("1","\u0623\u064e\u062d\u064e\u062f\u0652 \ud83c\udfc0",!0)
+B.S2=new A.cn("2","\u0627\u0644\u0652\u0641\u064e\u0644\u064e\u0642\u0652 \ud83c\udfc0",!0)
+B.RQ=new A.cn("3","\u0645\u0650\u0646 \u0631\u0651\u064e\u0628\u0650\u0651\u0647\u0650\u0645\u0652",!1)
+B.RZ=new A.cn("4","\u0642\u0650\u064a\u0644\u064e",!1)
+B.ZQ=s([B.S6,B.S2,B.RQ,B.RZ],t.Fu)
+B.aa9=new A.KX(B.dp,"Z\u0131playan Kalkale kelimelerini ye\u015fil kutuya at!",null,null,null,0,B.ZQ,"Top gibi sekti! Dal ve Kaf harfleri cezimli olunca z\u0131plar.","sounds/tecvidler/kalkale_1.mp3")
+B.a_t=s([B.aa9],t.g)
+B.aak=new A.Lf("kalkale","Kalkale (Z\u0131playan Harfler)","\ud83c\udfc0","Trambolin Tak\u0131m\u0131 (\u0642\u064f\u0637\u0652\u0628\u064f \u062c\u064e\u062f\u0651\u064d)! Cezimli olduklar\u0131nda yerlerinde duramaz, sesleri top gibi seker!","Kalkale harfleri (\u0642 \u0637 \u0628 \u062c \u062f) cezimli oldu\u011funda kuvvetli bir yank\u0131yla s\u0131\xe7rat\u0131l\u0131r.",B.a_Y,B.XV,B.a_t)
+B.Zu=s(["\u0645\u0652 + \u0645","\u0645\u0652 + \u0628","\u0645\u0652 + Di\u011fer"],t.s)
+B.aa_=new A.Kq("\u062a\u064e\u0631\u0652\u0645\u0650\u064a\u0647\u0650\u0645 \u0628\u0650\u062d\u0650\u062c\u064e\u0627\u0631\u064e\u0629\u064d","(Dudak \u0130hfas\u0131)","F\xeel Suresi, 4","sounds/tecvidler/sakin_mim_2.mp3")
+B.a0H=s([B.aa_],t.e)
+B.a5I=new A.Kb("\u062a\u064e\u0631\u0652\u0645\u0650\u064a",!1)
+B.a5S=new A.Kb("\u0647\u0650\u0645 \u0628\u0650\u0640",!0)
+B.a5L=new A.Kb("\u0640\u062d\u0650\u062c\u064e\u0627\u0631\u064e\u0629\u064d",!1)
+B.a_f=s([B.a5I,B.a5S,B.a5L],t.BQ)
+B.aaj=new A.KX(B.ev,"Fil Suresi'ndeki Dudak \u0130hfas\u0131 (\u0645\u0652 + \u0628) b\xf6l\xfcm\xfcne dokun!",null,B.a_f,null,0,null,"Harika tespit! S\xe2kin M\xeem'den sonra 'Be' gelince dudak hafif\xe7e f\u0131s\u0131ldar.","sounds/tecvidler/sakin_mim_2.mp3")
+B.XW=s([B.aaj],t.g)
+B.aas=new A.Lf("sakin_mim","S\xe2kin M\xeem Halleri","\ud83c\udfa7","Dudak Kilidi Operasyonu! M\xeem harfi di\u011fer M\xeem'e yap\u0131\u015f\u0131r, Be'de f\u0131s\u0131ldar, di\u011ferlerinde hemen a\xe7\u0131l\u0131r.","S\xe2kin M\xeem'in 3 hali: \u0130dgam-\u0131 Misleyn (\u0645), \u0130hfa-i \u015eefevi (\u0628), \u0130zhar-\u0131 \u015eefevi (Di\u011ferleri).",B.Zu,B.a0H,B.XW)
+B.Z7=s(["\u0628\u0652 + \u0628","\u062a\u0652 + \u062f","\u0642\u0652 + \u0643"],t.s)
+B.aa0=new A.Kq("\u0627\u0650\u0636\u0652\u0631\u0650\u0628 \u0628\u0650\u0651\u0639\u064e\u0635\u064e\u0627\u0643\u064e","(Misleyn: Be + Be)","Bakara Suresi, 60","sounds/tecvidler/idgam_c_1.mp3")
+B.YZ=s([B.aa0],t.e)
+B.a0b=s(["\u0130dgam-\u0131 Misleyn (\u0130kizler)","\u0130zhar","Kalkale"],t.s)
+B.aab=new A.KX(B.fv,"'\u0627\u0650\u0636\u0652\u0631\u0650\u0628 \u0628\u0650\u0651\u0639\u064e\u0635\u064e\u0627\u0643\u064e' ifadesinde hangi \u0130dgam t\xfcr\xfc vard\u0131r?","\u0627\u0650\u0636\u0652\u0631\u0650\u0628 \u0628\u0650\u0651\u0639\u064e\u0635\u064e\u0627\u0643\u064e",null,B.a0b,0,null,"Tebrikler! \u0130ki 'Be' harfi yan yana gelerek \u0130kiz \u0130dgam (Misleyn) yapt\u0131.","sounds/tecvidler/idgam_c_1.mp3")
+B.a0I=s([B.aab],t.g)
+B.aar=new A.Lf("idgam_cesitleri","\u0130dgam \xc7e\u015fitleri","\ud83d\udc65","\u0130kizler ve Akraba Harfler (Misleyn, M\xfctecaniseyn, M\xfctekaribeyn) bir araya gelince tek harf gibi \u015feddelenir.","Ayn\u0131 veya mahre\xe7leri yak\u0131n harfler yan yana gelince birbirine kat\u0131larak okunur.",B.Z7,B.YZ,B.a0I)
+B.a0m=s([B.aak,B.aas,B.aar],t.rE)
+B.aaA=new A.Xz("3. Ada: Ses Laboratuvar\u0131","\ud83d\udd2c","Kalkale, S\xe2kin M\xeem ve \u0130kiz Harfler",B.Qf,B.a0m)
+B.Z8=s(["\u0631\u064e (\ud83e\udd81 Kal\u0131n)","\u0631\u064f (\ud83e\udd81 Kal\u0131n)","\u0631\u0650 (\ud83d\udc31 \u0130nce)"],t.s)
+B.a9W=new A.Kq("\u0631\u064e\u0628\u0651\u064e\u0646\u064e\u0627 \u0622\u062a\u0650\u0646\u064e\u0627","(Kal\u0131n)","Bakara Suresi, 201","sounds/tecvidler/ra_1.mp3")
+B.XQ=s([B.a9W],t.e)
+B.RU=new A.cn("1","\u0631\u064e\u0628\u0651\u064e\u0646\u064e\u0627 (\xdcst\xfcn)",!0)
+B.RS=new A.cn("2","\u0631\u064f\u062d\u064e\u0645\u064e\u0627\u0621\u064f (\xd6tre)",!0)
+B.RP=new A.cn("3","\u0641\u0650\u0631\u0652\u0639\u064e\u0648\u0652\u0646\u064e (Esre)",!1)
+B.S5=new A.cn("4","\u0631\u0650\u062c\u064e\u0627\u0644\u064c (Esre)",!1)
+B.YG=s([B.RU,B.RS,B.RP,B.S5],t.Fu)
+B.aaf=new A.KX(B.dp,"R\xe2 (Kal\u0131n) olanlar\u0131 ye\u015fil kutuya yerle\u015ftir!",null,null,null,0,B.YG,"Aslan gibi k\xfckredi! \xdcst\xfcn ve \xd6treli R\xe2 harfleri Kal\u0131n okunur.","sounds/tecvidler/ra_1.mp3")
+B.a_a=s([B.aaf],t.g)
+B.aao=new A.Lf("hukmur_ra","H\xfckm\xfc'r-R\xe2 (Aslan & Kedi)","\ud83e\udd81","\xdcst\xfcn/\xd6trede k\xfckreyen Aslan R\xe2 (Kal\u0131n), Esrede miyavlayan Kedi R\xe2 (\u0130nce)!","R\xe2 harfi \xdcst\xfcn/\xd6tre ile Kal\u0131n, Esre ile \u0130nce okunur.",B.Z8,B.XQ,B.a_a)
+B.Zn=s(["\u0648\u064e\u0627\u0644\u0644\u0651\u0670\u0647\u064f (Alt\u0131n)","\u0628\u0650\u0627\u0644\u0644\u0651\u0670\u0647\u0650 (G\xfcm\xfc\u015f)"],t.s)
+B.a9L=new A.Kq("\u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u0670\u0647\u0650","(\u0130nce)","F\xe2tiha Suresi, 1","sounds/tecvidler/lafzatullah_2.mp3")
+B.Z9=s([B.a9L],t.e)
+B.a0u=s(["(\u0130nce)","KALIN"],t.s)
+B.aa7=new A.KX(B.fv,"'\u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u0670\u0647\u0650' ifadesindeki Allah lafz\u0131 nas\u0131l okunur?","\u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u0651\u0670\u0647\u0650",null,B.a0u,0,null,"Do\u011fru! \xd6ncesinde Esre oldu\u011fu i\xe7in ince (Bismill\xeah) okundu.","sounds/tecvidler/lafzatullah_2.mp3")
+B.YF=s([B.aa7],t.g)
+B.aaz=new A.Lf("lafzatullah","Lafzatullah (Allah Lafz\u0131)","\ud83d\udc51","Saray Tac\u0131! \xd6nceki harf \xdcst\xfcn/\xd6tre ise Alt\u0131n Ta\xe7 (Kal\u0131n), Esre ise G\xfcm\xfc\u015f Ta\xe7 (\u0130nce) tak\u0131l\u0131r.","Allah lafz\u0131ndan \xf6nceki hareke \xdcst\xfcn/\xd6tre ise Kal\u0131n, Esre ise \u0130nce okunur.",B.Zn,B.Z9,B.YF)
+B.a0d=s(["\u0644\u064e\u0647\u064f\u06e5 (\ud83d\udfe2 Uzat)","\u0645\u0650\u0646\u0652\u0647\u064f (\ud83d\udd34 Dur)"],t.s)
+B.aa1=new A.Kq("\u0639\u064e\u0646\u0652\u0647\u064f","Anhu (\ud83d\udd34 Cezimli -> Uzat\u0131lmaz)","Kevser Suresi, 2","sounds/tecvidler/zamir_2.mp3")
+B.YP=s([B.aa1],t.e)
+B.a_S=s(["\ud83d\udd34 DUR (Cezimli - Uzat\u0131lmaz)","\ud83d\udfe2 GE\xc7 (Harekeli - Uzat\u0131l\u0131r)"],t.s)
+B.aa3=new A.KX(B.fv,"'\u0639\u064e\u0646\u0652\u0647\u064f' kelimesinde Zamir (\u0640\u0647\u064f) harfi uzat\u0131l\u0131r m\u0131?","\u0639\u064e\u0646\u0652\u0647\u064f",null,B.a_S,0,null,"Trafik kural\u0131 devrede! \xd6n\xfcndeki N\xfbn cezimli oldu\u011fu i\xe7in DURDUK ve uzatmad\u0131k.","sounds/tecvidler/zamir_2.mp3")
+B.a0C=s([B.aa3],t.g)
+B.aax=new A.Lf("zamir","Zamir (Trafik I\u015f\u0131\u011f\u0131 He)","\ud83d\udea6","Trafik Polisi Zamir! \xd6nceki harf harekeli ise Ye\u015fil I\u015f\u0131k (UZAT), cezimli ise K\u0131rm\u0131z\u0131 I\u015f\u0131k (DUR)!","Zamirden (\u0640\u0647\u064f) \xf6nceki harf harekeli ise uzat\u0131l\u0131r, cezimli/harekesiz ise uzat\u0131lmaz.",B.a0d,B.YP,B.a0C)
+B.a_r=s([B.aao,B.aaz,B.aax],t.rE)
+B.aaD=new A.Xz("4. Ada: Kraliyet Saray\u0131","\ud83d\udc51","Aslan R\xe2, Lafzatullah & Zamir",B.rE,B.a_r)
+B.au=s([B.aaC,B.aaB,B.aaA,B.aaD],A.aA("J<Xz>"))
 B.or=s(["\u0627","\u0628","\u062a","\u062b","\u062c","\u062d","\u062e","\u062f","\u0630","\u0631","\u0632","\u0633","\u0634","\u0635","\u0636","\u0637","\u0638","\u0639","\u063a","\u0641","\u0642","\u0643","\u0644","\u0645","\u0646","\u0648","\u0647\u0640","\u0644\u0627","\u064a"],t.s)
 B.Ko=new A.aE(0,B.M,B.ej,B.d7,0)
 B.a0k=s([B.Ko],t.V)
-B.YG=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.a_v=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
-B.Z_=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.a0m=s([B.YG,B.a_v,B.Z_],t.zg)
+B.YH=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
+B.a_y=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.Z0=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
+B.a0l=s([B.YH,B.a_y,B.Z0],t.zg)
 B.a0n=s([45,95,45,20,45,90,45,45,45],t.n)
 B.a0o=s([120,120,20,45,20,15,20,120,120],t.n)
 B.fB=new A.Nw(0,"controlModifier")
@@ -141021,9 +141021,9 @@ B.Nw=new A.k(0.14901960784313725,0,0,0,B.i)
 B.Km=new A.aE(0,B.M,B.Nw,B.d7,8)
 B.QU=new A.k(0.058823529411764705,0,0,0,B.i)
 B.Kt=new A.aE(0,B.M,B.QU,B.d7,1)
-B.a0w=s([B.Km,B.Kt],t.V)
+B.a0x=s([B.Km,B.Kt],t.V)
 B.Ki=new A.aE(0,B.M,B.tl,B.d7,0)
-B.a0y=s([B.Ki],t.V)
+B.a0z=s([B.Ki],t.V)
 B.a0A=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.Mv=new A.bf("\u0631\u064e\u0633\u064f\u0648\u0644\u064c",B.cH,"sounds/kelimeler/rasulun.mp3")
 B.M1=new A.bf("\u0633\u064e\u0644\u064e\u0627\u0645\u064b\u0627",B.en,"sounds/kelimeler/selamen.mp3")
@@ -141037,8 +141037,8 @@ B.Mj=new A.bf("\u062c\u0650\u0647\u064e\u0627\u062f\u064c",B.hE,"sounds/kelimele
 B.MG=new A.bf("\u062d\u0650\u0633\u064e\u0627\u0628\u064d",B.cH,"sounds/kelimeler/hisabin.mp3")
 B.MC=new A.bf("\u0645\u064e\u0644\u064e\u0627\u0626\u0650\u0643\u064e\u0629\u064c",B.cJ,"sounds/kelimeler/melaiketun.mp3")
 B.MR=new A.bf("\u0635\u064e\u0627\u062f\u0650\u0642\u064c",B.hD,"sounds/kelimeler/sadikun.mp3")
-B.a0F=s([B.Mv,B.M1,B.Ms,B.MO,B.LZ,B.MQ,B.Mp,B.MU,B.Mj,B.MG,B.MC,B.MR],t.FC)
-B.a0H=s([B.ft,B.kd,B.ke,B.P,B.aC,B.dn,B.I,B.cM,B.aj],A.aA("J<Lo>"))
+B.a0E=s([B.Mv,B.M1,B.Ms,B.MO,B.LZ,B.MQ,B.Mp,B.MU,B.Mj,B.MG,B.MC,B.MR],t.FC)
+B.a0G=s([B.ft,B.kd,B.ke,B.P,B.aC,B.dn,B.I,B.cM,B.aj],A.aA("J<Lo>"))
 B.a0J=s([0.015176349177441876,0.045529047532325624,0.07588174588720938,0.10623444424209313,0.13658714259697685,0.16693984095186062,0.19729253930674434,0.2276452376616281,0.2579979360165119,0.28835063437139563,0.3188300904430532,0.350925934958123,0.3848314933096426,0.42057480301049466,0.458183274052838,0.4976837250274023,0.5391024159806381,0.5824650784040898,0.6277969426914107,0.6751227633498623,0.7244668422128921,0.775853049866786,0.829304845476233,0.8848452951698498,0.942497089126609,1.0022825574869039,1.0642236851973577,1.1283421258858297,1.1946592148522128,1.2631959812511864,1.3339731595349034,1.407011200216447,1.4823302800086415,1.5599503113873272,1.6398909516233677,1.7221716113234105,1.8068114625156377,1.8938294463134073,1.9832442801866852,2.075074464868551,2.1693382909216234,2.2660538449872063,2.36523901573795,2.4669114995532007,2.5710888059345764,2.6777882626779785,2.7870270208169257,2.898822059350997,3.0131901897720907,3.1301480604002863,3.2497121605402226,3.3718988244681087,3.4967242352587946,3.624204428461639,3.754355295633311,3.887192587735158,4.022731918402185,4.160988767090289,4.301978482107941,4.445716283538092,4.592217266055746,4.741496401646282,4.893568542229298,5.048448422192488,5.20615066083972,5.3666897647573375,5.5300801301023865,5.696336044816294,5.865471690767354,6.037501145825082,6.212438385869475,6.390297286737924,6.571091626112461,6.7548350853498045,6.941541251256611,7.131223617812143,7.323895587840543,7.5195704746346665,7.7182615035334345,7.919981813454504,8.124744458384042,8.332562408825165,8.543448553206703,8.757415699253682,8.974476575321063,9.194643831691977,9.417930041841839,9.644347703669503,9.873909240696694,10.106627003236781,10.342513269534024,10.58158024687427,10.8238400726681,11.069304815507364,11.317986476196008,11.569896988756009,11.825048221409341,12.083451977536606,12.345119996613247,12.610063955123938,12.878295467455942,13.149826086772048,13.42466730586372,13.702830557985108,13.984327217668513,14.269168601521828,14.55736596900856,14.848930523210871,15.143873411576273,15.44220572664832,15.743938506781891,16.04908273684337,16.35764934889634,16.66964922287304,16.985093187232053,17.30399201960269,17.62635644741625,17.95219714852476,18.281524751807332,18.614349837764564,18.95068293910138,19.290534541298456,19.633915083172692,19.98083495742689,20.331304511189067,20.685334046541502,21.042933821039977,21.404114048223256,21.76888489811322,22.137256497705877,22.50923893145328,22.884842241736916,23.264076429332462,23.6469514538663,24.033477234264016,24.42366364919083,24.817520537484558,25.21505769858089,25.61628489293138,26.021211842414342,26.429848230738664,26.842203703840827,27.258287870275353,27.678110301598522,28.10168053274597,28.529008062403893,28.96010235337422,29.39497283293396,29.83362889318845,30.276079891419332,30.722335150426627,31.172403958865512,31.62629557157785,32.08401920991837,32.54558406207592,33.010999283389665,33.4802739966603,33.953417292456834,34.430438229418264,34.911345834551085,35.39614910352207,35.88485700094671,36.37747846067349,36.87402238606382,37.37449765026789,37.87891309649659,38.38727753828926,38.89959975977785,39.41588851594697,39.93615253289054,40.460400508064545,40.98864111053629,41.520882981230194,42.05713473317016,42.597404951718396,43.141702194811224,43.6900349931913,44.24241185063697,44.798841244188324,45.35933162437017,45.92389141541209,46.49252901546552,47.065252796817916,47.64207110610409,48.22299226451468,48.808024568002054,49.3971762874833,49.9904556690408,50.587870934119984,51.189430279724725,51.79514187861014,52.40501387947288,53.0190544071392,53.637271562750364,54.259673423945976,54.88626804504493,55.517063457223934,56.15206766869424,56.79128866487574,57.43473440856916,58.08241284012621,58.734331877617365,59.39049941699807,60.05092333227251,60.715611475655585,61.38457167773311,62.057811747619894,62.7353394731159,63.417162620860914,64.10328893648692,64.79372614476921,65.48848194977529,66.18756403501224,66.89098006357258,67.59873767827808,68.31084450182222,69.02730813691093,69.74813616640164,70.47333615344107,71.20291564160104,71.93688215501312,72.67524319850172,73.41800625771542,74.16517879925733,74.9167682708136,75.67278210128072,76.43322770089146,77.1981124613393,77.96744375590167,78.74122893956174,79.51947534912904,80.30219030335869,81.08938110306934,81.88105503125999,82.67721935322541,83.4778813166706,84.28304815182372,85.09272707154808,85.90692527145302,86.72564993000343,87.54890820862819,88.3767072518277,89.2090541872801,90.04595612594655,90.88742016217518,91.73345337380438,92.58406282226491,93.43925555268066,94.29903859396902,95.16341895893969,96.03240364439274,96.9059996312159,97.78421388448044,98.6670533535366,99.55452497210776],t.n)
 B.NK=new A.k(1,0.9372549019607843,0.6039215686274509,0.6039215686274509,B.i)
 B.QC=new A.k(1,0.8980392156862745,0.45098039215686275,0.45098039215686275,B.i)
@@ -141689,82 +141689,82 @@ B.fz=new A.bB(B.ch,[],A.aA("bB<E,@>"))
 B.AA=new A.bB(B.ch,[],A.aA("bB<a8G,@>"))
 B.a2F=new A.bB(B.ch,[],A.aA("bB<NH,d3>"))
 B.Az=new A.bB(B.ch,[],A.aA("bB<NH,VX<d3>>"))
-B.Ya=s([42,null,null,8589935146],t.Z)
-B.Yb=s([43,null,null,8589935147],t.Z)
-B.Yc=s([45,null,null,8589935149],t.Z)
-B.Yd=s([46,null,null,8589935150],t.Z)
-B.Ye=s([47,null,null,8589935151],t.Z)
-B.Yf=s([48,null,null,8589935152],t.Z)
-B.Yg=s([49,null,null,8589935153],t.Z)
-B.Yl=s([50,null,null,8589935154],t.Z)
-B.Yn=s([51,null,null,8589935155],t.Z)
-B.Yo=s([52,null,null,8589935156],t.Z)
-B.Yp=s([53,null,null,8589935157],t.Z)
-B.Yq=s([54,null,null,8589935158],t.Z)
-B.Yr=s([55,null,null,8589935159],t.Z)
-B.Ys=s([56,null,null,8589935160],t.Z)
-B.Yu=s([57,null,null,8589935161],t.Z)
+B.Y9=s([42,null,null,8589935146],t.Z)
+B.Ya=s([43,null,null,8589935147],t.Z)
+B.Yb=s([45,null,null,8589935149],t.Z)
+B.Yc=s([46,null,null,8589935150],t.Z)
+B.Yd=s([47,null,null,8589935151],t.Z)
+B.Ye=s([48,null,null,8589935152],t.Z)
+B.Yf=s([49,null,null,8589935153],t.Z)
+B.Yk=s([50,null,null,8589935154],t.Z)
+B.Ym=s([51,null,null,8589935155],t.Z)
+B.Yn=s([52,null,null,8589935156],t.Z)
+B.Yo=s([53,null,null,8589935157],t.Z)
+B.Yp=s([54,null,null,8589935158],t.Z)
+B.Yq=s([55,null,null,8589935159],t.Z)
+B.Yr=s([56,null,null,8589935160],t.Z)
+B.Yt=s([57,null,null,8589935161],t.Z)
 B.a_0=s([8589934852,8589934852,8589934853,null],t.Z)
-B.Y_=s([4294967555,null,4294967555,null],t.Z)
-B.Y0=s([4294968065,null,null,8589935154],t.Z)
-B.Y1=s([4294968066,null,null,8589935156],t.Z)
-B.Y2=s([4294968067,null,null,8589935158],t.Z)
-B.Y3=s([4294968068,null,null,8589935160],t.Z)
-B.Y8=s([4294968321,null,null,8589935157],t.Z)
+B.XZ=s([4294967555,null,4294967555,null],t.Z)
+B.Y_=s([4294968065,null,null,8589935154],t.Z)
+B.Y0=s([4294968066,null,null,8589935156],t.Z)
+B.Y1=s([4294968067,null,null,8589935158],t.Z)
+B.Y2=s([4294968068,null,null,8589935160],t.Z)
+B.Y7=s([4294968321,null,null,8589935157],t.Z)
 B.a_1=s([8589934848,8589934848,8589934849,null],t.Z)
-B.XZ=s([4294967423,null,null,8589935150],t.Z)
-B.Y4=s([4294968069,null,null,8589935153],t.Z)
-B.XY=s([4294967309,null,null,8589935117],t.Z)
-B.Y5=s([4294968070,null,null,8589935159],t.Z)
-B.Y9=s([4294968327,null,null,8589935152],t.Z)
+B.XY=s([4294967423,null,null,8589935150],t.Z)
+B.Y3=s([4294968069,null,null,8589935153],t.Z)
+B.XX=s([4294967309,null,null,8589935117],t.Z)
+B.Y4=s([4294968070,null,null,8589935159],t.Z)
+B.Y8=s([4294968327,null,null,8589935152],t.Z)
 B.a_2=s([8589934854,8589934854,8589934855,null],t.Z)
-B.Y6=s([4294968071,null,null,8589935155],t.Z)
-B.Y7=s([4294968072,null,null,8589935161],t.Z)
+B.Y5=s([4294968071,null,null,8589935155],t.Z)
+B.Y6=s([4294968072,null,null,8589935161],t.Z)
 B.a_3=s([8589934850,8589934850,8589934851,null],t.Z)
-B.AB=new A.bX(["*",B.Ya,"+",B.Yb,"-",B.Yc,".",B.Yd,"/",B.Ye,"0",B.Yf,"1",B.Yg,"2",B.Yl,"3",B.Yn,"4",B.Yo,"5",B.Yp,"6",B.Yq,"7",B.Yr,"8",B.Ys,"9",B.Yu,"Alt",B.a_0,"AltGraph",B.Y_,"ArrowDown",B.Y0,"ArrowLeft",B.Y1,"ArrowRight",B.Y2,"ArrowUp",B.Y3,"Clear",B.Y8,"Control",B.a_1,"Delete",B.XZ,"End",B.Y4,"Enter",B.XY,"Home",B.Y5,"Insert",B.Y9,"Meta",B.a_2,"PageDown",B.Y6,"PageUp",B.Y7,"Shift",B.a_3],A.aA("bX<E,X<t?>>"))
-B.Yt=s([B.vH,null,null,B.An],t.L)
-B.a_M=s([B.A9,null,null,B.Ao],t.L)
+B.AB=new A.bX(["*",B.Y9,"+",B.Ya,"-",B.Yb,".",B.Yc,"/",B.Yd,"0",B.Ye,"1",B.Yf,"2",B.Yk,"3",B.Ym,"4",B.Yn,"5",B.Yo,"6",B.Yp,"7",B.Yq,"8",B.Yr,"9",B.Yt,"Alt",B.a_0,"AltGraph",B.XZ,"ArrowDown",B.Y_,"ArrowLeft",B.Y0,"ArrowRight",B.Y1,"ArrowUp",B.Y2,"Clear",B.Y7,"Control",B.a_1,"Delete",B.XY,"End",B.Y3,"Enter",B.XX,"Home",B.Y4,"Insert",B.Y8,"Meta",B.a_2,"PageDown",B.Y5,"PageUp",B.Y6,"Shift",B.a_3],A.aA("bX<E,X<t?>>"))
+B.Ys=s([B.vH,null,null,B.An],t.L)
+B.a_P=s([B.A9,null,null,B.Ao],t.L)
 B.Zm=s([B.Aa,null,null,B.Ap],t.L)
-B.a_6=s([B.Ab,null,null,B.eA],t.L)
+B.a_7=s([B.Ab,null,null,B.eA],t.L)
 B.XF=s([B.Ac,null,null,B.Aq],t.L)
-B.a0i=s([B.Ad,null,null,B.oD],t.L)
-B.a04=s([B.Ae,null,null,B.ij],t.L)
-B.YD=s([B.Af,null,null,B.eB],t.L)
-B.a0u=s([B.Ag,null,null,B.ik],t.L)
-B.a03=s([B.Ah,null,null,B.eC],t.L)
-B.YB=s([B.Ai,null,null,B.oE],t.L)
-B.XS=s([B.Aj,null,null,B.eD],t.L)
-B.YS=s([B.Ak,null,null,B.il],t.L)
-B.a_N=s([B.Al,null,null,B.eE],t.L)
-B.a_R=s([B.Am,null,null,B.im],t.L)
-B.YH=s([B.ih,B.ih,B.kz,null],t.L)
-B.a0j=s([B.kv,null,B.kv,null],t.L)
-B.ZA=s([B.cP,null,null,B.eB],t.L)
-B.ZB=s([B.cv,null,null,B.eC],t.L)
-B.ZC=s([B.cw,null,null,B.eD],t.L)
+B.a0h=s([B.Ad,null,null,B.oD],t.L)
+B.a03=s([B.Ae,null,null,B.ij],t.L)
+B.YC=s([B.Af,null,null,B.eB],t.L)
+B.a0v=s([B.Ag,null,null,B.ik],t.L)
+B.a02=s([B.Ah,null,null,B.eC],t.L)
+B.YA=s([B.Ai,null,null,B.oE],t.L)
+B.XR=s([B.Aj,null,null,B.eD],t.L)
+B.YT=s([B.Ak,null,null,B.il],t.L)
+B.a_Q=s([B.Al,null,null,B.eE],t.L)
+B.a_T=s([B.Am,null,null,B.im],t.L)
+B.YI=s([B.ih,B.ih,B.kz,null],t.L)
+B.a0i=s([B.kv,null,B.kv,null],t.L)
+B.Zz=s([B.cP,null,null,B.eB],t.L)
+B.ZA=s([B.cv,null,null,B.eC],t.L)
+B.ZB=s([B.cw,null,null,B.eD],t.L)
 B.a0r=s([B.cQ,null,null,B.eE],t.L)
 B.a00=s([B.ox,null,null,B.oE],t.L)
-B.YI=s([B.ig,B.ig,B.ky,null],t.L)
-B.a_p=s([B.bE,null,null,B.eA],t.L)
-B.ZD=s([B.ex,null,null,B.ij],t.L)
-B.Yy=s([B.ku,null,null,B.oC],t.L)
-B.ZE=s([B.ey,null,null,B.il],t.L)
+B.YJ=s([B.ig,B.ig,B.ky,null],t.L)
+B.a_s=s([B.bE,null,null,B.eA],t.L)
+B.ZC=s([B.ex,null,null,B.ij],t.L)
+B.Yx=s([B.ku,null,null,B.oC],t.L)
+B.ZD=s([B.ey,null,null,B.il],t.L)
 B.a01=s([B.ie,null,null,B.oD],t.L)
-B.YJ=s([B.ii,B.ii,B.kA,null],t.L)
-B.ZF=s([B.ic,null,null,B.ik],t.L)
-B.a_x=s([B.id,null,null,B.im],t.L)
-B.YK=s([B.dT,B.dT,B.ez,null],t.L)
-B.a2I=new A.bX(["*",B.Yt,"+",B.a_M,"-",B.Zm,".",B.a_6,"/",B.XF,"0",B.a0i,"1",B.a04,"2",B.YD,"3",B.a0u,"4",B.a03,"5",B.YB,"6",B.XS,"7",B.YS,"8",B.a_N,"9",B.a_R,"Alt",B.YH,"AltGraph",B.a0j,"ArrowDown",B.ZA,"ArrowLeft",B.ZB,"ArrowRight",B.ZC,"ArrowUp",B.a0r,"Clear",B.a00,"Control",B.YI,"Delete",B.a_p,"End",B.ZD,"Enter",B.Yy,"Home",B.ZE,"Insert",B.a01,"Meta",B.YJ,"PageDown",B.ZF,"PageUp",B.a_x,"Shift",B.YK],A.aA("bX<E,X<m?>>"))
+B.YK=s([B.ii,B.ii,B.kA,null],t.L)
+B.ZE=s([B.ic,null,null,B.ik],t.L)
+B.a_A=s([B.id,null,null,B.im],t.L)
+B.YL=s([B.dT,B.dT,B.ez,null],t.L)
+B.a2I=new A.bX(["*",B.Ys,"+",B.a_P,"-",B.Zm,".",B.a_7,"/",B.XF,"0",B.a0h,"1",B.a03,"2",B.YC,"3",B.a0v,"4",B.a02,"5",B.YA,"6",B.XR,"7",B.YT,"8",B.a_Q,"9",B.a_T,"Alt",B.YI,"AltGraph",B.a0i,"ArrowDown",B.Zz,"ArrowLeft",B.ZA,"ArrowRight",B.ZB,"ArrowUp",B.a0r,"Clear",B.a00,"Control",B.YJ,"Delete",B.a_s,"End",B.ZC,"Enter",B.Yx,"Home",B.ZD,"Insert",B.a01,"Meta",B.YK,"PageDown",B.ZE,"PageUp",B.a_A,"Shift",B.YL],A.aA("bX<E,X<m?>>"))
 B.a3O={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.AC=new A.bB(B.a3O,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.a3N={"zh-Hant":0,"zh-TW":1,"zh-MO":2,"zh-HK":3,ja:4,ko:5,zh:6,"zh-Hans":7,"zh-CN":8}
 B.oi=s(["Noto Sans TC"],t.s)
-B.a_9=s(["Noto Sans HK","Noto Sans TC"],t.s)
-B.Yw=s(["Noto Sans JP"],t.s)
-B.XT=s(["Noto Sans KR"],t.s)
+B.a_b=s(["Noto Sans HK","Noto Sans TC"],t.s)
+B.Yv=s(["Noto Sans JP"],t.s)
+B.XS=s(["Noto Sans KR"],t.s)
 B.vq=s(["Noto Sans SC"],t.s)
 B.a0B=s(["Noto Sans SC","Noto Sans TC"],t.s)
-B.kG=new A.bB(B.a3N,[B.oi,B.oi,B.oi,B.a_9,B.Yw,B.XT,B.vq,B.vq,B.a0B],t.VJ)
+B.kG=new A.bB(B.a3N,[B.oi,B.oi,B.oi,B.a_b,B.Yv,B.XS,B.vq,B.vq,B.a0B],t.VJ)
 B.a3J={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.DQ=new A.D(458907)
 B.Dw=new A.D(458873)
@@ -142318,22 +142318,22 @@ B.ahL=new A.am("\ud83d\udcd6",null,B.eU,null,null,null,null,null,null)
 B.c5=new A.bY(8,null,null,null)
 B.afR=new A.o(!0,B.cb,null,"Quicksand",null,null,16,B.I,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.ahj=new A.am("Sure ve Dua K\xfct\xfcphanesi",null,B.afR,null,null,null,null,null,null)
-B.YR=s([B.ahL,B.c5,B.ahj],t.p)
-B.a6M=new A.TT(B.aH,B.A,B.B,B.z,null,B.bP,null,0,B.YR,null)
+B.YS=s([B.ahL,B.c5,B.ahj],t.p)
+B.a6M=new A.TT(B.aH,B.A,B.B,B.z,null,B.bP,null,0,B.YS,null)
 B.afm=new A.o(!0,B.r,null,null,null,null,11,B.I,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.ahX=new A.am("Kurallar",null,B.afm,null,null,null,null,null,null)
 B.cy=new A.bY(4,null,null,null)
 B.Vw=new A.aJ(63669,"MaterialIcons",!1)
 B.Wp=new A.bE(B.Vw,16,B.r,null,null)
-B.a_4=s([B.ahX,B.cy,B.Wp],t.p)
-B.a6N=new A.TT(B.aH,B.A,B.B,B.z,null,B.bP,null,0,B.a_4,null)
+B.a_5=s([B.ahX,B.cy,B.Wp],t.p)
+B.a6N=new A.TT(B.aH,B.A,B.B,B.z,null,B.bP,null,0,B.a_5,null)
 B.V6=new A.aJ(58455,"MaterialIcons",!1)
 B.W4=new A.bE(B.V6,28,B.aW,null,null)
 B.cU=new A.bY(10,null,null,null)
 B.ahF=new A.am("Reklam \u0130zle ve Oyunu A\xe7",null,null,null,null,null,null,null,null)
 B.TU=new A.Nl(1,B.ka,B.ahF,null)
-B.a_w=s([B.W4,B.cU,B.TU],t.p)
-B.a6O=new A.TT(B.aH,B.A,B.B,B.z,null,B.bP,null,0,B.a_w,null)
+B.a_z=s([B.W4,B.cU,B.TU],t.p)
+B.a6O=new A.TT(B.aH,B.A,B.B,B.z,null,B.bP,null,0,B.a_z,null)
 B.a6P=new A.a7G(1333)
 B.p6=new A.a7G(2222)
 B.a6Q=new A.alG(null,null)
@@ -142472,9 +142472,9 @@ B.a7H=new A.a86(null)
 B.a7N=new A.Od(B.jt,B.x,2)
 B.PS=new A.k(0.23529411764705882,0,0,0,B.i)
 B.Kw=new A.aE(0.5,B.M,B.PS,B.bG,10)
-B.a_r=s([B.Kw],t.V)
+B.a_u=s([B.Kw],t.V)
 B.a6K=new A.Qi(B.qn,B.L)
-B.a7O=new A.MU(null,null,null,B.a_r,B.a6K)
+B.a7O=new A.MU(null,null,null,B.a_u,B.a6K)
 B.pj=new A.U3(0,"onlyForDiscrete")
 B.Fs=new A.U3(1,"onlyForContinuous")
 B.Ft=new A.U3(2,"always")
@@ -143709,7 +143709,7 @@ return A.f([A.T(A.T(A.aF(),q),"Alphabetic"),A.T(A.T(A.aF(),q),"Ideographic")],t.
 s($,"d8T","bVq",()=>{var q="PlaceholderAlignment"
 return A.f([A.T(A.T(A.aF(),q),"Baseline"),A.T(A.T(A.aF(),q),"AboveBaseline"),A.T(A.T(A.aF(),q),"BelowBaseline"),A.T(A.T(A.aF(),q),"Top"),A.T(A.T(A.aF(),q),"Bottom"),A.T(A.T(A.aF(),q),"Middle")],t.W)})
 r($,"d8I","bVi",()=>A.JL().ga0T()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
-s($,"d88","bUW",()=>A.bZA(B.ZM))
+s($,"d88","bUW",()=>A.bZA(B.ZK))
 s($,"d87","bd2",()=>A.aI3(A.bWF($.bUW())))
 s($,"d4V","JN",()=>{var q,p=A.T(A.T(A.UU(),"window"),"screen")
 p=p==null?null:A.T(p,"width")
