@@ -34304,6 +34304,7 @@ _.y1=o
 _.y2=p
 _.bq=q
 _.b3=r
+_.q=0
 _.d6$=s
 _.aX$=a0
 _.c=_.a=null},
@@ -130904,14 +130905,16 @@ s.f=null
 s.a33()
 A.cz(B.cO,new A.b82(s),t.P)
 s.A(new A.b83())},
-a1e(){var s,r,q,p=this,o=p.RG
-if(o.cW()<0.72){s=p.cy
-return s[o.cM(s.length)]}s=p.cy
+a1e(){var s,r,q,p=this
+if(p.q>=1||p.RG.cW()<0.85){p.q=0
+s=p.cy
+return s[p.RG.cM(s.length)]}s=p.cy
 r=t.gD
 q=A.a4(new A.at(B.kY,new A.b8c(A.Pv(s,A.a6(s).c)),r),r.i("R.E"))
 s=q.length
 if(s===0){s=p.cy
-return s[o.cM(s.length)]}return q[o.cM(s)]},
+return s[p.RG.cM(s.length)]}++p.q
+return q[p.RG.cM(s)]},
 a33(){var s=this,r=s.f
 s.e=r==null?s.a1e():r
 s.f=s.a1e()
