@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -18,21 +18,87 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Kur'an okumayı kolayca öğrenmek isteyenler için hazırlanan dijital dersler ve içerikler.">
+  <meta name="theme-color" content="#0175C2">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Kur'an okumayı kolayca öğrenmek isteyenler için hazırlanan dijital dersler ve içerikler.">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="apple-mobile-web-app-title" content="Kur'an Öğretmenim">
+  <link rel="apple-touch-icon" href="icons/logo-192.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="logo.png"/>
+  <!-- Favicon (küçük kopya; 1024'lük logo.png 1,1 MB idi) -->
+  <link rel="icon" type="image/png" href="icons/logo-128.png"/>
+
+  <!-- Hız: Flutter çizim motoru (CanvasKit) ve yazı tipleri Google
+       sunucularından gelir; bağlantıyı erkenden kur, uygulama kodunu
+       erkenden indirmeye başla. -->
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preload" href="main.dart.js" as="script">
 
   <title>Kur'an Öğretmenim</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Yükleniyor ekranı: Flutter ilk kareyi çizene kadar görünür. */
+    html, body { margin: 0; height: 100%; }
+    body { background: #E0F2F1; }
+    @media (prefers-color-scheme: dark) { body { background: #121212; } }
+    #yukleniyor {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 18px; background: inherit;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #00695C; transition: opacity .35s ease;
+    }
+    @media (prefers-color-scheme: dark) { #yukleniyor { color: #80CBC4; } }
+    #yukleniyor.gizle { opacity: 0; pointer-events: none; }
+    #yukleniyor img {
+      width: 112px; height: 112px; border-radius: 24px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, .15);
+      animation: nabiz 1.6s ease-in-out infinite;
+    }
+    #yukleniyor .cubuk {
+      width: 160px; height: 6px; border-radius: 3px; overflow: hidden;
+      background: rgba(0, 105, 92, .18);
+    }
+    #yukleniyor .cubuk span {
+      display: block; width: 40%; height: 100%; border-radius: 3px;
+      background: #00897B; animation: kay 1.2s ease-in-out infinite;
+    }
+    #yukleniyor .yazi { font-size: 17px; font-weight: 600; }
+    @keyframes nabiz { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+    @keyframes kay { 0% { transform: translateX(-100%); } 100% { transform: translateX(250%); } }
+    @media (prefers-reduced-motion: reduce) {
+      #yukleniyor img, #yukleniyor .cubuk span { animation: none; }
+    }
+  </style>
 </head>
 <body>
+  <div id="yukleniyor" role="status" aria-live="polite">
+    <img src="icons/logo-128.png" alt="Kur'an Öğretmenim">
+    <div class="cubuk"><span></span></div>
+    <div class="yazi" id="yukleniyor-yazi">Yükleniyor…</div>
+  </div>
+  <script>
+    (function () {
+      var dil = (navigator.language || 'tr').toLowerCase();
+      if (dil.indexOf('tr') !== 0) {
+        document.getElementById('yukleniyor-yazi').textContent = 'Loading…';
+        document.documentElement.lang = 'en';
+      }
+      // Flutter ilk kareyi çizince yükleniyor ekranını kaldır.
+      window.addEventListener('flutter-first-frame', function () {
+        var el = document.getElementById('yukleniyor');
+        if (!el) return;
+        el.classList.add('gizle');
+        setTimeout(function () { el.remove(); }, 400);
+      });
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
