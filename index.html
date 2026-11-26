@@ -19,7 +19,7 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kur'an okumayı kolayca öğrenmek isteyenler için hazırlanan dijital dersler ve içerikler.">
+  <meta name="description" content="Çocuklar için sesli Elifba dersleri, tecvit, sûre ve dualar ve 16 eğitici oyunla Kur'an okumayı kolayca öğrenin. Ücretsiz, tarayıcıda ve Android'de.">
   <meta name="theme-color" content="#0175C2">
 
   <!-- iOS meta tags & icons -->
@@ -39,7 +39,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preload" href="main.dart.js" as="script">
 
-  <title>Kur'an Öğretmenim</title>
+  <title>Kur'an Öğretmenim – Çocuklar için Elifba ve Kur'an Öğrenme</title>
+  <link rel="canonical" href="https://kuranogretmenim.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kuranogretmenim.com/">
+  <meta property="og:title" content="Kur'an Öğretmenim – Çocuklar için Elifba ve Kur'an Öğrenme">
+  <meta property="og:description" content="Sesli Elifba dersleri, tecvit, sûre ve dualar, 16 eğitici oyun. Ücretsiz, tarayıcıda ve Android'de.">
+  <meta property="og:image" content="https://kuranogretmenim.com/icons/logo-512.png">
+  <meta property="og:locale" content="tr_TR">
   <link rel="manifest" href="manifest.json">
 
   <style>
@@ -72,6 +79,15 @@
     #yukleniyor .yazi { font-size: 17px; font-weight: 600; }
     @keyframes nabiz { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.06); } }
     @keyframes kay { 0% { transform: translateX(-100%); } 100% { transform: translateX(250%); } }
+    /* Arama motorları ve JavaScript'siz tarayıcılar için tanıtım metni.
+       Uygulama açılınca Flutter tüm ekranı kaplar, bu metin arkada kalır. */
+    #tanitim {
+      max-width: 720px; margin: 0 auto; padding: 24px 16px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #263238; line-height: 1.5;
+    }
+    @media (prefers-color-scheme: dark) { #tanitim { color: #ECEFF1; } }
+    #tanitim a { color: #00796B; }
     @media (prefers-reduced-motion: reduce) {
       #yukleniyor img, #yukleniyor .cubuk span { animation: none; }
     }
@@ -83,6 +99,24 @@
     <div class="cubuk"><span></span></div>
     <div class="yazi" id="yukleniyor-yazi">Yükleniyor…</div>
   </div>
+  <main id="tanitim">
+    <h1>Kur'an Öğretmenim – Çocuklar için Elifba ve Kur'an Öğrenme</h1>
+    <p>Kur'an Öğretmenim, çocukların ve yeni başlayanların Kur'an-ı Kerim okumayı
+      adım adım, sesli ve oyunlarla öğrenmesi için hazırlanmış ücretsiz bir
+      uygulamadır. Tarayıcıda doğrudan açılır, Android'de de kullanılabilir.</p>
+    <h2>Neler var?</h2>
+    <ul>
+      <li><strong>Elifba dersleri:</strong> harflerden hurûf-ı mukattaya kadar sesli dersler; harekeler, cezm, şedde ve med.</li>
+      <li><strong>Alıştırmalar:</strong> kategorilere ayrılmış kelime listeleri ve okuma pratiği.</li>
+      <li><strong>Sûre ve dualar:</strong> kısa sûreler, namaz duaları, meal ve dinleme.</li>
+      <li><strong>Tecvit bilgisi:</strong> 21 tecvit kuralı, Kur'an örnekleri ve alıştırmalar.</li>
+      <li><strong>16 eğitici oyun:</strong> Balon Patlatma, Harf Eşleştirme, Sözcük Avı, Kur'an Yolcusu, Tetris, Mikrofon Sende ve daha fazlası.</li>
+      <li><strong>Sınıf modu:</strong> sınıfta büyük ekranda ders anlatımı ve öğretmen rehberi.</li>
+    </ul>
+    <p>Türkçe ve İngilizce kullanılabilir. İlerleme yalnızca cihazda saklanır.</p>
+    <p><a href="https://play.google.com/store/apps/details?id=com.enes.kuran_ogreniyorum">Google Play'den indir</a></p>
+    <noscript><p>Uygulamayı kullanmak için JavaScript'i açın.</p></noscript>
+  </main>
   <script>
     (function () {
       var dil = (navigator.language || 'tr').toLowerCase();
